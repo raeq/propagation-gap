@@ -1,0 +1,50 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ci-bench"
+version = "0.1.0"
+description = "CI-Bench: A benchmark for calibrated ignorance in large language models"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.10"
+authors = [
+    {name = "Richard Quinn", email = "quinn.richard@gmail.com"},
+]
+keywords = ["llm", "benchmark", "calibration", "uncertainty", "abstention"]
+
+dependencies = [
+    "numpy>=1.24",
+    "scipy>=1.10",
+    "scikit-learn>=1.3",
+    "matplotlib>=3.7",
+    "pyyaml>=6.0",
+]
+
+[project.optional-dependencies]
+mlx = [
+    "mlx>=0.5",
+    "mlx-lm>=0.5",
+]
+api = [
+    "openai>=1.0",
+    "anthropic>=0.20",
+    "google-genai>=1.0",
+    "python-dotenv>=1.0",
+]
+data = [
+    "datasets>=2.14",
+]
+dev = [
+    "pytest>=7.0",
+    "pytest-cov>=4.0",
+]
+all = ["ci-bench[mlx,api,data,dev]"]
+
+[tool.setuptools.packages.find]
+include = ["ci_bench*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

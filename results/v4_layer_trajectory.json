@@ -1,0 +1,132 @@
+{
+  "fix1_resource_matched_variants": {
+    "Mistral-7B": {
+      "variant_a_auroc": 0.5643,
+      "variant_b_auroc": 0.6722
+    },
+    "Llama-3.1-8B": {
+      "variant_a_auroc": 0.5792,
+      "variant_b_auroc": 0.5971
+    },
+    "Qwen2.5-7B": {
+      "variant_a_auroc": 0.493,
+      "variant_b_auroc": 0.7219
+    }
+  },
+  "fix2_layer_trajectory": {
+    "Mistral-7B": {
+      "best_layer": 16,
+      "best_auroc": 0.742,
+      "last_layer": 32,
+      "last_auroc": 0.6726,
+      "logit_answer": 0.5404,
+      "logit_confidence": 0.6272,
+      "drop_best_to_last": 0.0694,
+      "drop_last_to_logit": 0.0454
+    },
+    "Llama-3.1-8B": {
+      "best_layer": 15,
+      "best_auroc": 0.7642,
+      "last_layer": 32,
+      "last_auroc": 0.7033,
+      "logit_answer": 0.5548,
+      "logit_confidence": 0.5856,
+      "drop_best_to_last": 0.0609,
+      "drop_last_to_logit": 0.1177
+    },
+    "Qwen2.5-7B": {
+      "best_layer": 17,
+      "best_auroc": 0.7363,
+      "last_layer": 28,
+      "last_auroc": 0.7075,
+      "logit_answer": 0.5288,
+      "logit_confidence": 0.5586,
+      "drop_best_to_last": 0.0288,
+      "drop_last_to_logit": 0.1489
+    }
+  },
+  "fix3_bootstrap_gaps": {
+    "Mistral-7B": {
+      "auroc_behavioral_a": 0.5643224699828473,
+      "ci_behavioral_a": [
+        0.4863909233458214,
+        0.646405596975743
+      ],
+      "auroc_behavioral_b": 0.6722004410683656,
+      "ci_behavioral_b": [
+        0.606006306257259,
+        0.735452352374246
+      ],
+      "auroc_logit_confidence": 0.6272359715755942,
+      "ci_logit_confidence": [
+        0.5510890356692429,
+        0.70191443589548
+      ],
+      "auroc_logit_answer": 0.7420362656211713,
+      "ci_logit_answer": [
+        0.6789508134929734,
+        0.8030170155022817
+      ],
+      "n_beh": 289,
+      "n_logit": 289,
+      "n_bootstrap": 5000,
+      "note": "V4 labels, 289 common questions"
+    },
+    "Llama-3.1-8B": {
+      "auroc_behavioral_a": 0.579241306638567,
+      "ci_behavioral_a": [
+        0.49526263110164803,
+        0.6624339076901542
+      ],
+      "auroc_behavioral_b": 0.597119775201967,
+      "ci_behavioral_b": [
+        0.5126625187570999,
+        0.6814507183081565
+      ],
+      "auroc_logit_confidence": 0.6136283807516684,
+      "ci_logit_confidence": [
+        0.5355948819976404,
+        0.688665936086232
+      ],
+      "auroc_logit_answer": 0.7728134878819811,
+      "ci_logit_answer": [
+        0.7022017211902805,
+        0.8362360189582542
+      ],
+      "n_beh": 268,
+      "n_logit": 268,
+      "n_bootstrap": 5000,
+      "note": "V4 labels, 268 common questions"
+    },
+    "Qwen2.5-7B": {
+      "auroc_behavioral_a": 0.4929802437999159,
+      "ci_behavioral_a": [
+        0.4084574337052601,
+        0.5761173728521357
+      ],
+      "auroc_behavioral_b": 0.7219419924337959,
+      "ci_behavioral_b": [
+        0.6516285124944596,
+        0.7882894501479535
+      ],
+      "auroc_logit_confidence": 0.5585540142917192,
+      "ci_logit_confidence": [
+        0.4759069393983917,
+        0.6414119325614861
+      ],
+      "auroc_logit_answer": 0.7362757461118118,
+      "ci_logit_answer": [
+        0.658243015175543,
+        0.8093617076028948
+      ],
+      "n_beh": 256,
+      "n_logit": 256,
+      "n_bootstrap": 5000,
+      "note": "V4 labels, 256 common questions"
+    }
+  },
+  "_metadata": {
+    "generated": "2026-03-21T06:29:04.707094",
+    "label_source": "V4 model-relative labels"
+  }
+}

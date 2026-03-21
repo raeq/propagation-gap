@@ -1,0 +1,106 @@
+{
+  "version": "phase3-0.1",
+  "questions": [
+    {
+      "id": "D3-001",
+      "text": "Who holds the record for most men's Grand Slam singles tennis titles?",
+      "category": "D",
+      "sub_category": "D3",
+      "reference_answers": [
+        "Novak Djokovic",
+        "Djokovic with 24"
+      ],
+      "source": "ATP / Grand Slam records",
+      "metadata": {
+        "screening": {
+          "current_accuracy": 0.0,
+          "stale_rate": 1.0,
+          "answer_diversity": 0.222,
+          "n_runs": 10,
+          "temperature": 0.7,
+          "responses": [
+            {
+              "text": "Roger Federer holds the record for the most men's Grand Slam singles tennis titles with 20.\n\n(*Note: This answer is accurate as of August 2022, but titles can change as more tournaments are played.)\n\n",
+              "extracted": "Roger Federer holds the record for the most men's Grand Slam singles tennis titles with 20.",
+              "current_correct": false,
+              "stale_match": true,
+              "seed": 6320
+            },
+            {
+              "text": "Roger Federer holds the record for most men's Grand Slam singles tennis titles with 20.\n\nNote: As of May 2023, the record for the most men's Grand Slam singles titles at 20 is held by Roger Federer. H",
+              "extracted": "Roger Federer holds the record for most men's Grand Slam singles tennis titles with 20.",
+              "current_correct": false,
+              "stale_match": true,
+              "seed": 6321
+            },
+            {
+              "text": "Roger Federer holds the record for most men's Grand Slam singles tennis titles with 20 titles.\n\nExplanation:\n\n* Roger Federer, a Swiss professional tennis player, has won 20 Grand Slam singles titles.",
+              "extracted": "Roger Federer holds the record for most men's Grand Slam singles tennis titles with 20 titles.",
+              "current_correct": false,
+              "stale_match": true,
+              "seed": 6322
+            },
+            {
+              "text": "Roger Federer holds the record for most men's Grand Slam singles tennis titles with 20.\n\nAs of my last update, Roger Federer holds the record for most men's Grand Slam singles tennis titles, with 20 t",
+              "extracted": "Roger Federer holds the record for most men's Grand Slam singles tennis titles with 20.",
+              "current_correct": false,
+              "stale_match": true,
+              "seed": 6323
+            },
+            {
+              "text": "Rafael Nadal holds the record for most men's Grand Slam singles tennis titles with 21 titles. He achieved this feat by winning the French Open 2022.\n\nNote: As of the French Open 2022, Rafael Nadal hol",
+              "extracted": "Rafael Nadal holds the record for most men's Grand Slam singles tennis titles with 21 titles. He achieved this feat by winning the French Open 2022.",
+              "current_correct": false,
+              "stale_match": true,
+              "seed": 6324
+            },
+            {
+              "text": "Roger Federer holds the record for most men's Grand Slam singles tennis titles, with 20 titles.",
+              "extracted": "Roger Federer holds the record for most men's Grand Slam singles tennis titles, with 20 titles.",
+              "current_correct": false,
+              "stale_match": true,
+              "seed": 6325
+            },
+            {
+              "text": "Roger Federer holds the record for most men's Grand Slam singles tennis titles with 20 titles.\n\n(As of January 2023, since Federer retired from professional tennis in September 2022)",
+              "extracted": "Roger Federer holds the record for most men's Grand Slam singles tennis titles with 20 titles.",
+              "current_correct": false,
+              "stale_match": true,
+              "seed": 6326
+            },
+            {
+              "text": "Roger Federer holds the record for most men's Grand Slam singles tennis titles with 20.\n\nFederer has won the Australian Open six times, the French Open once, Wimbledon eight times, and the US Open fiv",
+              "extracted": "Roger Federer holds the record for most men's Grand Slam singles tennis titles with 20.",
+              "current_correct": false,
+              "stale_match": true,
+              "seed": 6327
+            },
+            {
+              "text": "Roger Federer holds the record for most men's Grand Slam singles tennis titles with 20 titles.\n\nExplanation:\n\nRoger Federer, a Swiss professional tennis player, holds the record for the most men's Gra",
+              "extracted": "Roger Federer holds the record for most men's Grand Slam singles tennis titles with 20 titles.",
+              "current_correct": false,
+              "stale_match": true,
+              "seed": 6328
+            },
+            {
+              "text": "Roger Federer holds the record for the most men's Grand Slam singles tennis titles with 20.\n\nExplanation:\n\nRoger Federer, a professional tennis player, holds the record for the most men's Grand Slam s",
+              "extracted": "Roger Federer holds the record for the most men's Grand Slam singles tennis titles with 20.",
+              "current_correct": false,
+              "stale_match": true,
+              "seed": 6329
+            }
+          ]
+        },
+        "stale_answers": [
+          "Roger Federer",
+          "Rafael Nadal",
+          "they are tied"
+        ],
+        "revision_date": "2023",
+        "revision": "Djokovic reached 24 Grand Slam titles by winning US Open 2023. Nadal has 22, Federer 20.",
+        "domain": "sports",
+        "note": "Model may know Djokovic leads, but could still say 'tied' or name Federer/Nadal."
+      }
+    }
+  ]
+}

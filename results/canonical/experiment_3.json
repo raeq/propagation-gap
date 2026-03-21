@@ -1,0 +1,331 @@
+{
+  "metadata": {
+    "generated": "2026-03-03T01:43:12.811438",
+    "script": "exp3_output_readout.py",
+    "n_questions": 338
+  },
+  "analysis_3a_logit_probe": {
+    "Mistral 7B": {
+      "n_K": 212,
+      "n_D": 77,
+      "answer_prompt": {
+        "auroc": 0.5502,
+        "ci": [
+          0.4677,
+          0.611
+        ],
+        "fold_aurocs": [
+          0.5922,
+          0.6465,
+          0.5149,
+          0.4911,
+          0.5063
+        ]
+      },
+      "confidence_prompt": {
+        "auroc": 0.6334,
+        "ci": [
+          0.5536,
+          0.697
+        ],
+        "fold_aurocs": [
+          0.538,
+          0.6822,
+          0.558,
+          0.6429,
+          0.746
+        ]
+      }
+    },
+    "Llama 3.1 8B": {
+      "n_K": 216,
+      "n_D": 95,
+      "answer_prompt": {
+        "auroc": 0.5627,
+        "ci": [
+          0.4832,
+          0.6247
+        ],
+        "fold_aurocs": [
+          0.6077,
+          0.4884,
+          0.6316,
+          0.5851,
+          0.5006
+        ]
+      },
+      "confidence_prompt": {
+        "auroc": 0.5989,
+        "ci": [
+          0.5157,
+          0.6525
+        ],
+        "fold_aurocs": [
+          0.7057,
+          0.6328,
+          0.5704,
+          0.481,
+          0.6047
+        ]
+      }
+    }
+  },
+  "analysis_3b_behavioral": {
+    "Mistral 7B": {
+      "n_K": 212,
+      "n_D": 77,
+      "variant_a": {
+        "auroc": 0.5878,
+        "ci": [
+          0.4846,
+          0.643
+        ]
+      },
+      "variant_b": {
+        "auroc": 0.7023,
+        "ci": [
+          0.6116,
+          0.738
+        ]
+      },
+      "diversity_contribution": 0.1145
+    },
+    "Llama 3.1 8B": {
+      "n_K": 195,
+      "n_D": 73,
+      "variant_a": {
+        "auroc": 0.6102,
+        "ci": [
+          0.4954,
+          0.6689
+        ]
+      },
+      "variant_b": {
+        "auroc": 0.628,
+        "ci": [
+          0.5116,
+          0.6824
+        ]
+      },
+      "diversity_contribution": 0.0178
+    }
+  },
+  "analysis_3c_trajectory": {
+    "Mistral 7B": {
+      "best_hidden": {
+        "layer": 16,
+        "auroc": 0.7511
+      },
+      "last_hidden": {
+        "layer": 32,
+        "auroc": 0.6683
+      },
+      "logit_probe": {
+        "auroc": 0.6334
+      },
+      "behavioral_a": {
+        "auroc": 0.5878
+      },
+      "drops": {
+        "best_to_last": 0.0828,
+        "last_to_logit": 0.0349,
+        "logit_to_behavioral_a": 0.0456
+      }
+    },
+    "Llama 3.1 8B": {
+      "best_hidden": {
+        "layer": 15,
+        "auroc": 0.7477
+      },
+      "last_hidden": {
+        "layer": 32,
+        "auroc": 0.7219
+      },
+      "logit_probe": {
+        "auroc": 0.5989
+      },
+      "behavioral_a": {
+        "auroc": 0.6102
+      },
+      "drops": {
+        "best_to_last": 0.0258,
+        "last_to_logit": 0.123,
+        "logit_to_behavioral_a": -0.0113
+      }
+    }
+  },
+  "analysis_3d_bootstrap_gaps": {
+    "Mistral 7B": {
+      "best_minus_last": {
+        "gap": 0.0827,
+        "ci": [
+          0.0233,
+          0.1426
+        ],
+        "p": 0.0036
+      },
+      "best_minus_behavioral_a": {
+        "gap": 0.1541,
+        "ci": [
+          0.0647,
+          0.2476
+        ],
+        "p": 0.0006
+      },
+      "best_minus_behavioral_b": {
+        "gap": 0.0509,
+        "ci": [
+          -0.0246,
+          0.126
+        ],
+        "p": 0.0922
+      },
+      "last_minus_logit": {
+        "gap": 0.0699,
+        "ci": [
+          -0.0163,
+          0.1591
+        ],
+        "p": 0.0556,
+        "_note": "Bootstrap gap computed from pre-existing paired predictions. Logit AUROC independently verified in Analysis 3A."
+      },
+      "logit_minus_behavioral_a": {
+        "gap": 0.0014,
+        "ci": [
+          -0.1015,
+          0.1044
+        ],
+        "p": 0.4894
+      },
+      "aurocs": {
+        "hidden_best": {
+          "point": 0.7511,
+          "ci": [
+            0.6889,
+            0.8093
+          ]
+        },
+        "hidden_last": {
+          "point": 0.6683,
+          "ci": [
+            0.5979,
+            0.7375
+          ]
+        },
+        "behavioral_a": {
+          "point": 0.5969,
+          "ci": [
+            0.5201,
+            0.672
+          ]
+        },
+        "behavioral_b": {
+          "point": 0.7001,
+          "ci": [
+            0.6364,
+            0.761
+          ]
+        },
+        "logit_confidence": {
+          "point": 0.5984,
+          "ci": [
+            0.5247,
+            0.6688
+          ]
+        }
+      }
+    },
+    "Llama 3.1 8B": {
+      "best_minus_last": {
+        "gap": 0.0258,
+        "ci": [
+          -0.025,
+          0.0757
+        ],
+        "p": 0.1606
+      },
+      "best_minus_behavioral_a": {
+        "gap": 0.1686,
+        "ci": [
+          0.0741,
+          0.2596
+        ],
+        "p": 0.0004
+      },
+      "best_minus_behavioral_b": {
+        "gap": 0.1311,
+        "ci": [
+          0.0429,
+          0.2174
+        ],
+        "p": 0.002
+      },
+      "last_minus_logit": {
+        "gap": 0.1567,
+        "ci": [
+          0.0765,
+          0.2362
+        ],
+        "p": 0.0,
+        "_note": "Bootstrap gap computed from pre-existing paired predictions. Logit AUROC independently verified in Analysis 3A."
+      },
+      "logit_minus_behavioral_a": {
+        "gap": -0.0139,
+        "ci": [
+          -0.1052,
+          0.0749
+        ],
+        "p": 0.6176
+      },
+      "aurocs": {
+        "hidden_best": {
+          "point": 0.7477,
+          "ci": [
+            0.6893,
+            0.8059
+          ]
+        },
+        "hidden_last": {
+          "point": 0.7219,
+          "ci": [
+            0.6611,
+            0.7808
+          ]
+        },
+        "behavioral_a": {
+          "point": 0.5791,
+          "ci": [
+            0.5104,
+            0.6512
+          ]
+        },
+        "behavioral_b": {
+          "point": 0.6166,
+          "ci": [
+            0.5493,
+            0.6818
+          ]
+        },
+        "logit_confidence": {
+          "point": 0.5652,
+          "ci": [
+            0.4963,
+            0.635
+          ]
+        }
+      }
+    }
+  },
+  "analysis_3e_ceiling_convergence": {
+    "Mistral 7B": {
+      "logit_auroc": 0.6334,
+      "behavioral_a_auroc": 0.5878,
+      "delta": 0.0456
+    },
+    "Llama 3.1 8B": {
+      "logit_auroc": 0.5989,
+      "behavioral_a_auroc": 0.6102,
+      "delta": -0.0113
+    }
+  }
+}

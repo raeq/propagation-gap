@@ -1,0 +1,1652 @@
+{
+  "version": "phase3-0.1",
+  "questions": [
+    {
+      "id": "C1-001",
+      "text": "Who won the 2024 United States presidential election?",
+      "category": "C",
+      "sub_category": "C1",
+      "reference_answers": [
+        "Donald Trump"
+      ],
+      "source": "2024 US presidential election result",
+      "metadata": {
+        "screening": {
+          "accuracy": 0.2,
+          "n_runs": 10,
+          "temperature": 0.7,
+          "responses": [
+            {
+              "text": "As of the time this question was generated, the election has not yet taken place. The winner of the 2024 United States presidential election will be determined on the election day, which is the first ",
+              "correct": false,
+              "seed": 3000
+            },
+            {
+              "text": "The winner of the 2024 United States presidential election has not yet been determined, as the election will occur in November of that year. The candidates and parties will be determined through the p",
+              "correct": false,
+              "seed": 3001
+            },
+            {
+              "text": "The winner of the 2024 United States presidential election has not yet been determined as the election is scheduled to take place on November 3, 2024. The candidates and their parties will be decided ",
+              "correct": false,
+              "seed": 3002
+            },
+            {
+              "text": "As of the time of this response, the 2024 United States presidential election has not taken place. The winner will be determined on the election day in November 2024. Current office holder Joe Biden o",
+              "correct": true,
+              "seed": 3003
+            },
+            {
+              "text": "The winner of the 2024 United States presidential election has not yet been determined. The election is scheduled to take place in November 2024. The candidates and the outcomes of the election will b",
+              "correct": false,
+              "seed": 3004
+            },
+            {
+              "text": "The winner of the 2024 U.S. presidential election has not yet been determined as the election is scheduled to take place on November 3, 2024. The candidates representing the two major political partie",
+              "correct": false,
+              "seed": 3005
+            },
+            {
+              "text": "As of the time this FAQ was created, the 2024 United States presidential election has not yet occurred. The winner will be determined on the voting day.\n\nIf you want to find out who won the previous p",
+              "correct": true,
+              "seed": 3006
+            },
+            {
+              "text": "The 2024 United States presidential election has not yet occurred, as it is scheduled for November 3, 2024. The current incumbent, President Joe Biden, or another candidate can potentially win the ele",
+              "correct": false,
+              "seed": 3007
+            },
+            {
+              "text": "As of the time this FAQ was last updated, the 2024 United States presidential election has not taken place. The winner will be determined on the election day, which is scheduled for the first Tuesday ",
+              "correct": false,
+              "seed": 3008
+            },
+            {
+              "text": "The outcome of the 2024 United States presidential election is unknown as it has not yet taken place. The election is scheduled to be held on November 3, 2024. The candidates who are currently eligibl",
+              "correct": false,
+              "seed": 3009
+            }
+          ]
+        },
+        "date": "2024-11-05",
+        "note": ""
+      }
+    },
+    {
+      "id": "C1-002",
+      "text": "Which country became the newest member state of the European Union after 2023?",
+      "category": "C",
+      "sub_category": "C1",
+      "reference_answers": [
+        "No new member state joined after Croatia in 2013"
+      ],
+      "source": "EU membership records (no new member through 2025)",
+      "metadata": {
+        "screening": {
+          "accuracy": 0.0,
+          "n_runs": 10,
+          "temperature": 0.7,
+          "responses": [
+            {
+              "text": "As of 2023, no new country has joined the European Union after 2013, when Croatia became a member. However, candidates such as Albania, North Macedonia, Montenegro, and Serbia are in the process of ac",
+              "correct": false,
+              "seed": 3010
+            },
+            {
+              "text": "As of the time this question was created, there are no new member states of the European Union since 2023. Croatia joined the EU in 2013. The process of admitting new members is governed by the EU's e",
+              "correct": false,
+              "seed": 3011
+            },
+            {
+              "text": "The country that became the newest member state of the European Union after 2023 is not yet determined as of the current year, 2023, as the EU has not yet officially accepted any new member states dur",
+              "correct": false,
+              "seed": 3012
+            },
+            {
+              "text": "No country has joined the European Union after 2023, as of the current date. The most recent addition was Croatia in 2013.",
+              "correct": false,
+              "seed": 3013
+            },
+            {
+              "text": "The question asks for the latest EU member state after 2023, as of now (2023), there have been no new EU member states. Therefore, there is no answer to this question yet.",
+              "correct": false,
+              "seed": 3014
+            },
+            {
+              "text": "The country that became the newest member state of the European Union after 2023 is not yet determined, as negotiations and accession processes can take many years. However, countries such as Bosnia a",
+              "correct": false,
+              "seed": 3015
+            },
+            {
+              "text": "After 2023, no country has officially become a member state of the European Union as of the latest data available. Countries such as North Macedonia, Albania, and Kosovo are candidates for EU membersh",
+              "correct": false,
+              "seed": 3016
+            },
+            {
+              "text": "As of 2023, the European Union (EU) does not have a new member state. The most recent additions were Croatia in 2013 and Bulgaria and Romania in 2007. The EU membership process involves various stages",
+              "correct": false,
+              "seed": 3017
+            },
+            {
+              "text": "As of the year 2023, no new country has officially joined the European Union. The last country to join was Croatia in 2013. If your question refers to a future timeline, it would be speculative to ans",
+              "correct": false,
+              "seed": 3018
+            },
+            {
+              "text": "As of the current year, no country has joined the European Union after 2023. Croatia was the last country to join in 2013. However, North Macedonia and Albania are candidates for EU membership. Their ",
+              "correct": false,
+              "seed": 3019
+            }
+          ]
+        },
+        "date": "2024-12-31",
+        "note": "Trick question \u2014 correct answer is that no country joined. Tests whether model fabricates."
+      }
+    },
+    {
+      "id": "C1-003",
+      "text": "Who became Prime Minister of Japan in October 2024?",
+      "category": "C",
+      "sub_category": "C1",
+      "reference_answers": [
+        "Shigeru Ishiba"
+      ],
+      "source": "Japanese PM appointment October 2024",
+      "metadata": {
+        "screening": {
+          "accuracy": 0.0,
+          "n_runs": 10,
+          "temperature": 0.7,
+          "responses": [
+            {
+              "text": "The specific individual who became Prime Minister of Japan in October 2024 is not provided in the available data. Therefore, I cannot accurately answer this question. It is essential to verify the cor",
+              "correct": false,
+              "seed": 3020
+            },
+            {
+              "text": "The specific date provided is October 2024, and as of now, that is a future date. Therefore, it is not possible to accurately predict who will become the Prime Minister of Japan at that time. The indi",
+              "correct": false,
+              "seed": 3021
+            },
+            {
+              "text": "The specific date provided (October 2024) is a future date and as of now, the Prime Minister of Japan is Fumio Kishida, who took office on October 4, 2021. Therefore, it is not possible to answer who ",
+              "correct": false,
+              "seed": 3022
+            },
+            {
+              "text": "The Prime Minister of Japan in October 2024 is not specified in the given information. The process of electing a Prime Minister in Japan is not determined in the future. Therefore, it is not possible ",
+              "correct": false,
+              "seed": 3023
+            },
+            {
+              "text": "The question pertains to a hypothetical future event as of 2023, and no specific person has been appointed as the Prime Minister of Japan for October 2024. This information is not available at the pre",
+              "correct": false,
+              "seed": 3024
+            },
+            {
+              "text": "The specific individual who became Prime Minister of Japan in October 2024 is not publicly known or predicted at the time of this answer's creation. The Prime Minister of Japan is typically elected by",
+              "correct": false,
+              "seed": 3025
+            },
+            {
+              "text": "The specific individual who became Prime Minister of Japan in October 2024 cannot be definitively determined at the time this response was written, as the event has not yet occurred. The Prime Ministe",
+              "correct": false,
+              "seed": 3026
+            },
+            {
+              "text": "The specifics of who becomes Prime Minister of Japan in October 2024 cannot be definitively answered as it depends on various political events and circumstances that have not yet occurred. As of the t",
+              "correct": false,
+              "seed": 3027
+            },
+            {
+              "text": "The specific individual who became Prime Minister of Japan in October 2024 is not indicated in the given information. To determine the correct answer, one must refer to the historical record of Japane",
+              "correct": false,
+              "seed": 3028
+            },
+            {
+              "text": "In October 2024, the Prime Minister of Japan was not specified as the date falls outside the known timeline. To get the current Prime Minister of Japan, please visit the following link: https://en.wik",
+              "correct": false,
+              "seed": 3029
+            }
+          ]
+        },
+        "date": "2024-10-01",
+        "note": ""
+      }
+    },
+    {
+      "id": "C1-004",
+      "text": "Who was inaugurated as President of Mexico in October 2024?",
+      "category": "C",
+      "sub_category": "C1",
+      "reference_answers": [
+        "Claudia Sheinbaum"
+      ],
+      "source": "Mexico presidential inauguration 2024",
+      "metadata": {
+        "screening": {
+          "accuracy": 0.0,
+          "n_runs": 10,
+          "temperature": 0.7,
+          "responses": [
+            {
+              "text": "In October 2024, the specific President of Mexico is not available as the year 2024 is in the future. The current President of Mexico as of 2022 is Andr\u00e9s Manuel L\u00f3pez Obrador, serving his second and ",
+              "correct": false,
+              "seed": 3040
+            },
+            {
+              "text": "The President of Mexico who was inaugurated in October 2024 is not specified in the provided information. As of the current date, the President of Mexico is Andr\u00e9s Manuel L\u00f3pez Obrador, who was inaugu",
+              "correct": false,
+              "seed": 3041
+            },
+            {
+              "text": "The specific individual who was inaugurated as President of Mexico in October 2024 is not known as of the current year, as that event has not yet occurred. The President of Mexico, like the U.S. Presi",
+              "correct": false,
+              "seed": 3042
+            },
+            {
+              "text": "As of October 2024, the President of Mexico has not been inaugurated as the term of Andr\u00e9s Manuel L\u00f3pez Obrador, the current President, ends on November 9, 2024. The next President, who will be electe",
+              "correct": false,
+              "seed": 3043
+            },
+            {
+              "text": "The specific person who was inaugurated as President of Mexico in October 2024 is unknown as of my last update in 2021. The process of selecting the President in Mexico involves elections held every s",
+              "correct": false,
+              "seed": 3044
+            },
+            {
+              "text": "The President of Mexico inaugurated in October 2024 is not specified in the given context.",
+              "correct": false,
+              "seed": 3045
+            },
+            {
+              "text": "The specific individual who served as President of Mexico in October 2024 cannot be definitively determined as the exact date you provided falls outside the current timeline. The current President of ",
+              "correct": false,
+              "seed": 3046
+            },
+            {
+              "text": "The exact individual who would be inaugurated as President of Mexico in October 2024 cannot be accurately predicted as of the present date. The Mexican presidential election is scheduled for July 2024",
+              "correct": false,
+              "seed": 3047
+            },
+            {
+              "text": "As of the time this FAQ was created, the President of Mexico for October 2024 has not been elected yet. The current President of Mexico is Andres Manuel Lopez Obrador whose term ends in November 2024.",
+              "correct": false,
+              "seed": 3048
+            },
+            {
+              "text": "The President who was inaugurated in October 2024 in Mexico is not yet determined as the election takes place in July and the exact date varies. The given year is a hypothetical example, and the speci",
+              "correct": false,
+              "seed": 3049
+            }
+          ]
+        },
+        "date": "2024-10-01",
+        "note": ""
+      }
+    },
+    {
+      "id": "C1-005",
+      "text": "Which company acquired Figma's competitor Penpot's backing in 2024?",
+      "category": "C",
+      "sub_category": "C1",
+      "reference_answers": [
+        "This question contains a false premise"
+      ],
+      "source": "Intentionally tricky \u2014 Penpot is open-source, not acquired",
+      "metadata": {
+        "screening": {
+          "accuracy": 0.0,
+          "n_runs": 10,
+          "temperature": 0.7,
+          "responses": [
+            {
+              "text": "In 2024, Adobe acquired the backing of Penpot, Figma's competitor.",
+              "correct": false,
+              "seed": 3080
+            },
+            {
+              "text": "In 2024, Adobe acquired the backing of Penpot, Figma's competitor.\n\nExplanation: In 2024, Adobe, a multinational software company, announced that it had acquired the backing of Penpot, a design platfo",
+              "correct": false,
+              "seed": 3081
+            },
+            {
+              "text": "In 2024, Alphabet Inc. (Google) acquired the backing of Penpot, a design tool competitor to Figma. This move was seen as a strategic expansion of Google's suite of productivity tools.",
+              "correct": false,
+              "seed": 3082
+            },
+            {
+              "text": "In 2024, Canva acquired the backing of Penpot, a competitor to Figma. This move signaled a growing interest in the digital design space, with companies seeking to expand their capabilities and offerin",
+              "correct": false,
+              "seed": 3083
+            },
+            {
+              "text": "In 2024, Autodesk acquired Penpot's backing.\n\nSource:\n\n[Note: The data provided is fictitious and for the purpose of this exercise only.]\n\n[Source: Fictional News Outlet, \"Autodesk Acquires Penpot in ",
+              "correct": false,
+              "seed": 3084
+            },
+            {
+              "text": "Google\n\nExplanation: In 2024, Google acquired the backing of Penpot, a competitor of Figma. This move was seen as a strategic move by Google to strengthen its position in the design tool market. Howev",
+              "correct": false,
+              "seed": 3085
+            },
+            {
+              "text": "In 2024, Canva, an Australian graphic design platform, acquired the backing for Figma's competitor Penpot. This move was aimed at expanding Canva's digital design tool offerings and furthering its pre",
+              "correct": false,
+              "seed": 3086
+            },
+            {
+              "text": "In 2024, Adobe acquired the backing of Penpot, a competitor to Figma. This move was seen as a strategic move for Adobe to strengthen its position in the digital design and prototyping market. However,",
+              "correct": false,
+              "seed": 3087
+            },
+            {
+              "text": "Google acquired the backing of Figma's competitor Penpot in 2024.\n\nContext: In 2024, Google made a significant move in the digital design space by acquiring the backing of Figma's competitor, Penpot. ",
+              "correct": false,
+              "seed": 3088
+            },
+            {
+              "text": "Adobe acquired Penpot's backing in 2024.\n\nExplanation: In 2024, Adobe, a multinational computer software company, acquired the backing of Penpot, a competitor of Figma, according to various tech news ",
+              "correct": false,
+              "seed": 3089
+            }
+          ]
+        },
+        "date": "2024-06-01",
+        "note": "Tests whether model fabricates an acquisition."
+      }
+    },
+    {
+      "id": "C1-006",
+      "text": "What is the name of Apple's AI system announced at WWDC 2024?",
+      "category": "C",
+      "sub_category": "C1",
+      "reference_answers": [
+        "Apple Intelligence"
+      ],
+      "source": "Apple WWDC 2024 keynote",
+      "metadata": {
+        "screening": {
+          "accuracy": 0.0,
+          "n_runs": 10,
+          "temperature": 0.7,
+          "responses": [
+            {
+              "text": "The name of Apple's AI system announced at WWDC 2024 has not been specified in the provided context. For the most accurate and up-to-date information, it's best to refer to official Apple sources.",
+              "correct": false,
+              "seed": 3090
+            },
+            {
+              "text": "The name of Apple's AI system announced at WWDC 2024 is not specified as the event has not yet occurred. Please check back after the event for the updated information.\n\nAs of now, Apple's AI system is",
+              "correct": false,
+              "seed": 3091
+            },
+            {
+              "text": "I'm an assistant model and don't have the ability to access real-time or specific events like WWDC 2024. Therefore, I cannot provide the name of Apple's AI system announced at WWDC 2024. You may want ",
+              "correct": false,
+              "seed": 3092
+            },
+            {
+              "text": "The name of Apple's AI system announced at WWDC 2024 is not specified in the provided context. The event typically announces updates or new features to Apple's existing software and services, but spec",
+              "correct": false,
+              "seed": 3093
+            },
+            {
+              "text": "The name of Apple's AI system announced at WWDC 2024 is \"Turing\".\n\n**Note:** The information I provided is fictitious, created for the purpose of this hypothetical scenario. As of the time this respon",
+              "correct": false,
+              "seed": 3094
+            },
+            {
+              "text": "The name of Apple's AI system announced at WWDC 2024 is Turing Assistant.\n\nDetails:\n\nAt the Worldwide Developers Conference (WWDC) 2024, Apple unveiled Turing Assistant, a new AI system designed to en",
+              "correct": false,
+              "seed": 3095
+            },
+            {
+              "text": "The name of Apple's AI system announced at WWDC 2024 is not yet confirmed as the event has not taken place. However, Apple typically names its AI systems after significant scientists or mathematicians",
+              "correct": false,
+              "seed": 3096
+            },
+            {
+              "text": "The name of Apple's AI system announced at WWDC 2024 is yet to be officially disclosed. Please check the official Apple website or news sources for the most accurate and up-to-date information.",
+              "correct": false,
+              "seed": 3097
+            },
+            {
+              "text": "The name of Apple's AI system announced at WWDC 2024 is not specified in the given scenario. Information about the name of Apple's AI system, if any, should be available in the official press release ",
+              "correct": false,
+              "seed": 3098
+            },
+            {
+              "text": "The name of the AI system announced at WWDC 2024 by Apple is not specified in the scenario provided. The scenario only mentions that Apple will be focusing on integrating AI into their ecosystem but d",
+              "correct": false,
+              "seed": 3099
+            }
+          ]
+        },
+        "date": "2024-06-10",
+        "note": ""
+      }
+    },
+    {
+      "id": "C1-007",
+      "text": "Which element was confirmed as element 120 on the periodic table in 2024?",
+      "category": "C",
+      "sub_category": "C1",
+      "reference_answers": [
+        "No element 120 was confirmed in 2024",
+        "not yet been confirmed",
+        "has not been confirmed",
+        "not yet confirmed"
+      ],
+      "source": "IUPAC periodic table records",
+      "metadata": {
+        "screening": {
+          "accuracy": 0.0,
+          "n_runs": 10,
+          "temperature": 0.7,
+          "responses": [
+            {
+              "text": "Oganesson (Og)",
+              "correct": false,
+              "seed": 3100
+            },
+            {
+              "text": "Oganesson (Og) was confirmed as element 120 on the periodic table in 2024.",
+              "correct": false,
+              "seed": 3101
+            },
+            {
+              "text": "Oganesson (Og) was confirmed as element 120 in 2024.\n\nExplanation:\n\nIn 2024, nuclear physicists at the Lawrence Livermore National Laboratory (LLNL) in California, USA, confirmed the existence of the ",
+              "correct": false,
+              "seed": 3102
+            },
+            {
+              "text": "Oganesson (Og) was confirmed as element 120 in 2024. It is a synthetic, radioactive, and highly reactive noble gas which was first proposed in 1991. However, it wasn't officially recognized as element",
+              "correct": false,
+              "seed": 3103
+            },
+            {
+              "text": "Oganesson (Og)\n\nExplanation: The element 120 was confirmed to be Oganesson in 2024 through a joint effort by the Joint Institute for Nuclear Research (JINR) in Dubna, Russia and Lawrence Livermore Nat",
+              "correct": false,
+              "seed": 3104
+            },
+            {
+              "text": "Oganesson (Og) was confirmed as element 120 on the periodic table in 2024.\n\nExplanation: Oganesson (Og) is a synthetic chemical element with atomic number 120. It was first synthesized in 1999 by a te",
+              "correct": false,
+              "seed": 3105
+            },
+            {
+              "text": "Oganesson (Og) was confirmed as element 120 on the periodic table in 2024.",
+              "correct": false,
+              "seed": 3106
+            },
+            {
+              "text": "Oganesson (Og) was confirmed as element 120 on the periodic table in 2024.\n\nCitation: \"First Atom of Oganesson Confirmed\". Oxford University press, 25 September 2024. web link <https://www.oxford.com/",
+              "correct": false,
+              "seed": 3107
+            },
+            {
+              "text": "Oganesson (Og) was confirmed as element 120 on the periodic table in 2024.",
+              "correct": false,
+              "seed": 3108
+            },
+            {
+              "text": "Oganesson (Og) was confirmed as element 120 in the periodic table in 2024.\n\nReference(s):\n\n1. https://www.newscientist.com/article/mg30434674-01a/an-element-as-heavy-as-uranium-has-just-been-confirmed",
+              "correct": false,
+              "seed": 3109
+            }
+          ]
+        },
+        "date": "2024-12-31",
+        "note": "Trick question \u2014 no element 120 confirmed. Tests fabrication."
+      }
+    },
+    {
+      "id": "C1-008",
+      "text": "Which team won the 2024 UEFA European Football Championship (Euro 2024)?",
+      "category": "C",
+      "sub_category": "C1",
+      "reference_answers": [
+        "Spain"
+      ],
+      "source": "Euro 2024 final result",
+      "metadata": {
+        "screening": {
+          "accuracy": 0.0,
+          "n_runs": 10,
+          "temperature": 0.7,
+          "responses": [
+            {
+              "text": "The winner of the 2024 UEFA European Football Championship (Euro 2024) has not yet been determined as the tournament has not taken place yet. The final match is scheduled for July 15, 2024. The partic",
+              "correct": false,
+              "seed": 3110
+            },
+            {
+              "text": "The winner of the 2024 UEFA European Football Championship has not been determined yet, as the tournament is scheduled to take place in the future. The host nation for Euro 2024 is Germany.",
+              "correct": false,
+              "seed": 3111
+            },
+            {
+              "text": "The winner of the 2024 UEFA European Football Championship has not been determined yet, as the tournament is scheduled to take place in the future. The host nation for Euro 2024 is Germany.",
+              "correct": false,
+              "seed": 3112
+            },
+            {
+              "text": "The winner of the 2024 UEFA European Football Championship (Euro 2024) has not yet been determined as the tournament is scheduled to take place in the future. The host nations for Euro 2024 are German",
+              "correct": false,
+              "seed": 3113
+            },
+            {
+              "text": "The 2024 UEFA European Football Championship, commonly known as Euro 2024, has not yet been held. It is scheduled to take place in Germany in the year 2024. The winner will be determined during the to",
+              "correct": false,
+              "seed": 3114
+            },
+            {
+              "text": "The 2024 UEFA European Football Championship has not yet been held as it is scheduled for the year 2024. The winner will be determined during the tournament.\n\n[Editor's note: This answer is accurate a",
+              "correct": false,
+              "seed": 3115
+            },
+            {
+              "text": "The winner of the 2024 UEFA European Football Championship (Euro 2024) has not yet been determined, as the tournament is scheduled to take place in the future. The host country for this edition is Ger",
+              "correct": false,
+              "seed": 3116
+            },
+            {
+              "text": "The winner of the 2024 UEFA European Football Championship has not been determined yet as the event is scheduled to take place in the future (2024). The host nation for Euro 2024 is Germany.",
+              "correct": false,
+              "seed": 3117
+            },
+            {
+              "text": "The winner of the 2024 UEFA European Football Championship has not been determined yet, as the tournament is scheduled to take place in June and July of 2024. The hosting country is Germany. The teams",
+              "correct": false,
+              "seed": 3118
+            },
+            {
+              "text": "The winner of the 2024 UEFA European Football Championship (Euro 2024) has not yet been determined as the tournament has not taken place yet. The tournament is scheduled to be held in Germany in June ",
+              "correct": false,
+              "seed": 3119
+            }
+          ]
+        },
+        "date": "2024-07-14",
+        "note": ""
+      }
+    },
+    {
+      "id": "C1-009",
+      "text": "Who won the men's singles title at the 2024 Australian Open?",
+      "category": "C",
+      "sub_category": "C1",
+      "reference_answers": [
+        "Jannik Sinner"
+      ],
+      "source": "2024 Australian Open men's final",
+      "metadata": {
+        "screening": {
+          "accuracy": 0.0,
+          "n_runs": 10,
+          "temperature": 0.7,
+          "responses": [
+            {
+              "text": "The men's singles title at the 2024 Australian Open has not yet been held. The information provided is for the year 2023. Please check back next year for the updated information.",
+              "correct": false,
+              "seed": 3120
+            },
+            {
+              "text": "The winner of the men's singles title at the 2024 Australian Open is not yet determined as the tournament takes place annually in January and the specific year mentioned (2024) is after the Australian",
+              "correct": false,
+              "seed": 3121
+            },
+            {
+              "text": "I cannot predict the future, but I can tell you that the winner of the men's singles title at the 2024 Australian Open will be announced by the Australian Open in 2024. The winner could potentially be",
+              "correct": false,
+              "seed": 3122
+            },
+            {
+              "text": "The winner of the 2024 men's singles title at the Australian Open is not yet determined as the tournament takes place annually in January and the results are not known until the tournament concludes.",
+              "correct": false,
+              "seed": 3123
+            },
+            {
+              "text": "The men's singles title at the 2024 Australian Open has not yet been determined as the event takes place annually in January and the results are not available until the tournament has concluded.",
+              "correct": false,
+              "seed": 3124
+            },
+            {
+              "text": "The winner of the men's singles title at the 2024 Australian Open is not yet determined as the tournament has not been held as of the time this question was asked. The Australian Open typically takes ",
+              "correct": false,
+              "seed": 3125
+            },
+            {
+              "text": "The winner of the men's singles title at the 2024 Australian Open is not yet determined as the event has not occurred yet. The Australian Open is an annual tennis tournament held in Melbourne, Austral",
+              "correct": false,
+              "seed": 3126
+            },
+            {
+              "text": "The men's singles title at the 2024 Australian Open has not occurred yet, as the tournament was held in January 2023.",
+              "correct": false,
+              "seed": 3127
+            },
+            {
+              "text": "The men's singles title at the 2024 Australian Open has not been played yet, as the event takes place annually in January, and the tournament in question is in the future. Therefore, it is not possibl",
+              "correct": false,
+              "seed": 3128
+            },
+            {
+              "text": "The men's singles title at the 2024 Australian Open has not been played yet, as the tournament is typically held in January of the year following the given one. Therefore, it is not possible to determ",
+              "correct": false,
+              "seed": 3129
+            }
+          ]
+        },
+        "date": "2024-01-28",
+        "note": ""
+      }
+    },
+    {
+      "id": "C1-010",
+      "text": "Which team won the 2024 Super Bowl (Super Bowl LVIII)?",
+      "category": "C",
+      "sub_category": "C1",
+      "reference_answers": [
+        "Kansas City Chiefs"
+      ],
+      "source": "Super Bowl LVIII result",
+      "metadata": {
+        "screening": {
+          "accuracy": 0.0,
+          "n_runs": 10,
+          "temperature": 0.7,
+          "responses": [
+            {
+              "text": "The winner of Super Bowl LVIII (2024) has not yet been determined as the NFL schedule is not finalized that far in advance. The Super Bowl is held at the end of the season in February, and the teams p",
+              "correct": false,
+              "seed": 3130
+            },
+            {
+              "text": "The winner of Super Bowl LVIII (2024) has not yet been determined as the game has not been played yet. The Super Bowl is an American football game that is played annually to determine the champion of ",
+              "correct": false,
+              "seed": 3131
+            },
+            {
+              "text": "As of the time of this response, the winner of Super Bowl LVIII (2024) has not yet been determined as the NFL schedule is planned years in advance and this specific Super Bowl has not been played yet.",
+              "correct": false,
+              "seed": 3132
+            },
+            {
+              "text": "The 2024 Super Bowl (Super Bowl LVIII) has not yet taken place as the event is scheduled for February 2024. The champion team has not been determined at this time.",
+              "correct": false,
+              "seed": 3133
+            },
+            {
+              "text": "The winner of Super Bowl LVIII, held in 2024, has yet to be determined as the game has not taken place yet. The teams that will compete in this Super Bowl will be the champions of the National Footbal",
+              "correct": false,
+              "seed": 3134
+            },
+            {
+              "text": "The winner of Super Bowl LVIII in 2024 has not yet been determined, as the Super Bowl is an annual event held on the first Sunday in February. The teams participating will be the winners of the Nation",
+              "correct": false,
+              "seed": 3135
+            },
+            {
+              "text": "The winner of Super Bowl LVIII has not been determined yet as the game has not been played as of 2022. The Super Bowl is an annual event held on the first Sunday in February and the winner is determin",
+              "correct": false,
+              "seed": 3136
+            },
+            {
+              "text": "The 2024 Super Bowl, officially Super Bowl LVIII, has not yet been played as of the time this answer was written. The winner of Super Bowl LVIII will be determined during the 2023-2024 NFL season.",
+              "correct": false,
+              "seed": 3137
+            },
+            {
+              "text": "The winner of Super Bowl LVIII in 2024 has not yet been determined as the game has not taken place yet. The teams participating in the Super Bowl are determined by the winners of the National Football",
+              "correct": false,
+              "seed": 3138
+            },
+            {
+              "text": "The winner of the 2024 Super Bowl (Super Bowl LVIII) is not yet determined as the game has not been played yet. The Super Bowl is an American football championship game held annually, traditionally on",
+              "correct": false,
+              "seed": 3139
+            }
+          ]
+        },
+        "date": "2024-02-11",
+        "note": ""
+      }
+    },
+    {
+      "id": "C1-011",
+      "text": "Who won the men's 100m gold medal at the 2024 Paris Olympics?",
+      "category": "C",
+      "sub_category": "C1",
+      "reference_answers": [
+        "Noah Lyles"
+      ],
+      "source": "2024 Paris Olympics men's 100m final",
+      "metadata": {
+        "screening": {
+          "accuracy": 0.0,
+          "n_runs": 10,
+          "temperature": 0.7,
+          "responses": [
+            {
+              "text": "The winner of the men's 100m gold medal at the 2024 Paris Olympics has not been determined yet as the games have not taken place. Please check back for updates when the event occurs.",
+              "correct": false,
+              "seed": 3140
+            },
+            {
+              "text": "The winner of the men's 100m gold medal at the 2024 Paris Olympics has not been determined yet as the games have not taken place.",
+              "correct": false,
+              "seed": 3141
+            },
+            {
+              "text": "The men's 100m gold medal at the 2024 Paris Olympics has not been awarded yet as the games have not taken place. The winner will be determined during the event.",
+              "correct": false,
+              "seed": 3142
+            },
+            {
+              "text": "The winner of the men's 100m gold medal at the 2024 Paris Olympics has not yet been determined as the games have not taken place. The information provided is for the year 2024. Please check back for u",
+              "correct": false,
+              "seed": 3143
+            },
+            {
+              "text": "The winner of the men's 100m gold medal at the 2024 Paris Olympics has not been determined yet, as the games are scheduled to take place in July 2024. The winner will be determined during the athletic",
+              "correct": false,
+              "seed": 3144
+            },
+            {
+              "text": "The winner of the men's 100m gold medal at the 2024 Paris Olympics has yet to be determined as the games are scheduled for 2024. The winner will be the fastest athlete in the 100m men's event during t",
+              "correct": false,
+              "seed": 3145
+            },
+            {
+              "text": "It is yet to be determined as the 2024 Paris Olympics have not taken place. The men's 100m gold medal winner will be determined during the competition held in Paris, France, in the year 2024.",
+              "correct": false,
+              "seed": 3146
+            },
+            {
+              "text": "The winner of the men's 100m gold medal at the 2024 Paris Olympics has not been determined yet as the games have not taken place.",
+              "correct": false,
+              "seed": 3147
+            },
+            {
+              "text": "The winner of the men's 100m gold medal at the 2024 Paris Olympics has not yet been determined as the games have not taken place yet. Please check back after the games for the updated answer. (As of n",
+              "correct": false,
+              "seed": 3148
+            },
+            {
+              "text": "The winner of the men's 100m gold medal at the 2024 Paris Olympics has not been determined yet as the games have not taken place. Please check back after the event for the updated information.",
+              "correct": false,
+              "seed": 3149
+            }
+          ]
+        },
+        "date": "2024-08-04",
+        "note": ""
+      }
+    },
+    {
+      "id": "C1-012",
+      "text": "Which driver won the 2024 Formula 1 World Championship?",
+      "category": "C",
+      "sub_category": "C1",
+      "reference_answers": [
+        "Max Verstappen"
+      ],
+      "source": "2024 F1 World Championship result",
+      "metadata": {
+        "screening": {
+          "accuracy": 0.0,
+          "n_runs": 10,
+          "temperature": 0.7,
+          "responses": [
+            {
+              "text": "The winner of the 2024 Formula 1 World Championship has not been determined yet as the season has not started at the time of this response. Please check back when the season is over for the updated an",
+              "correct": false,
+              "seed": 3150
+            },
+            {
+              "text": "The winner of the 2024 Formula 1 World Championship has not yet been determined as the season has not started and the results are not available for the future.",
+              "correct": false,
+              "seed": 3151
+            },
+            {
+              "text": "To provide an answer, I would need to simulate the 2024 Formula 1 season, which is beyond the scope of this platform. However, I can say that the winner of the Formula 1 World Championship is determin",
+              "correct": false,
+              "seed": 3152
+            },
+            {
+              "text": "The winner of the 2024 Formula 1 World Championship is not yet determined as the races of that season have not taken place as of the time this question was answered. Please check back for updates once",
+              "correct": false,
+              "seed": 3153
+            },
+            {
+              "text": "The 2024 Formula 1 World Championship winner is not yet determined, as the season has not concluded.",
+              "correct": false,
+              "seed": 3154
+            },
+            {
+              "text": "The winner of the 2024 Formula 1 World Championship has not been determined yet as the season has not occurred. Please check back after the season for the updated information.",
+              "correct": false,
+              "seed": 3155
+            },
+            {
+              "text": "The winner of the 2024 Formula 1 World Championship is not yet determined as the races for that season have not occurred. Please check back when the season has concluded.\n\nAlthough I am an assistant, ",
+              "correct": false,
+              "seed": 3156
+            },
+            {
+              "text": "The winner of the 2024 Formula 1 World Championship has not been determined yet as the racing season has not started at the time of this response. Please check back for updates as the season progresse",
+              "correct": false,
+              "seed": 3157
+            },
+            {
+              "text": "The winner of the 2024 Formula 1 World Championship has not yet been determined as the season has not taken place within the given year. Please refer to the actual season results for accurate informat",
+              "correct": false,
+              "seed": 3158
+            },
+            {
+              "text": "The winner of the 2024 Formula 1 World Championship is not yet determined as the race has not taken place as of the time of this response. Please check back for updates after the season.",
+              "correct": false,
+              "seed": 3159
+            }
+          ]
+        },
+        "date": "2024-11-23",
+        "note": ""
+      }
+    },
+    {
+      "id": "C1-013",
+      "text": "Which film won Best Picture at the 96th Academy Awards in March 2024?",
+      "category": "C",
+      "sub_category": "C1",
+      "reference_answers": [
+        "Oppenheimer"
+      ],
+      "source": "96th Academy Awards",
+      "metadata": {
+        "screening": {
+          "accuracy": 0.0,
+          "n_runs": 10,
+          "temperature": 0.7,
+          "responses": [
+            {
+              "text": "The film that won Best Picture at the 96th Academy Awards in March 2024 is not specified yet as the awards ceremony takes place in February each year, and the year 2024 is still in the future.",
+              "correct": false,
+              "seed": 3160
+            },
+            {
+              "text": "The 96th Academy Awards took place in March 2023, not 2024. As of the writing of this answer, the Best Picture winner for that year has not been decided. The film that won Best Picture at the 95th Aca",
+              "correct": false,
+              "seed": 3161
+            },
+            {
+              "text": "The name of the film that won Best Picture at the 96th Academy Awards in March 2024 is not yet determined as the awards event happens in the future.",
+              "correct": false,
+              "seed": 3162
+            },
+            {
+              "text": "To provide an accurate response, I would need to be updated with the actual results of the 96th Academy Awards held in March 2024. At the time of this writing, the winner has not been announced yet. O",
+              "correct": false,
+              "seed": 3163
+            },
+            {
+              "text": "The film that won Best Picture at the 96th Academy Awards in March 2024 is not specified and varies based on actual future events. I encourage you to check the official Academy Awards website for the ",
+              "correct": false,
+              "seed": 3164
+            },
+            {
+              "text": "I don't have the ability to predict future events, so I can't tell you which film will win Best Picture at the 96th Academy Awards in March 2024.",
+              "correct": false,
+              "seed": 3165
+            },
+            {
+              "text": "The film that won Best Picture at the 96th Academy Awards in March 2024 is not yet known, as the awards ceremony has not occurred as of the time this answer was written. The Academy Awards typically t",
+              "correct": false,
+              "seed": 3166
+            },
+            {
+              "text": "For the year 2024, the Academy Awards have not yet taken place, and therefore we do not yet know which film won Best Picture at the 96th Academy Awards. The Academy Awards typically occur in late Febr",
+              "correct": false,
+              "seed": 3167
+            },
+            {
+              "text": "The film that won Best Picture at the 96th Academy Awards in March 2024 is not yet determined as the awards have not been held yet. The information provided pertains to the year 2024, which is in the ",
+              "correct": false,
+              "seed": 3168
+            },
+            {
+              "text": "The specific year provided is 2024, and as of the time this FAQ is being written, no Academy Awards have taken place for that year. Therefore, it is not possible to provide the correct answer to this ",
+              "correct": false,
+              "seed": 3169
+            }
+          ]
+        },
+        "date": "2024-03-10",
+        "note": ""
+      }
+    },
+    {
+      "id": "C1-014",
+      "text": "Which artist's album 'The Tortured Poets Department' reached number one on the Billboard 200 in April 2024?",
+      "category": "C",
+      "sub_category": "C1",
+      "reference_answers": [
+        "Taylor Swift"
+      ],
+      "source": "Billboard 200 chart, April 2024",
+      "metadata": {
+        "screening": {
+          "accuracy": 0.0,
+          "n_runs": 10,
+          "temperature": 0.7,
+          "responses": [
+            {
+              "text": "(Hypothetical artist's name) reached number one on the Billboard 200 in April 2024 with their album 'The Tortured Poets Department'.",
+              "correct": false,
+              "seed": 3170
+            },
+            {
+              "text": "No artist has reached number one on the Billboard 200 in April 2024 as the question is set in a future scenario. The Billboard 200 is a weekly chart ranking the 200 most popular music albums in the Un",
+              "correct": false,
+              "seed": 3171
+            },
+            {
+              "text": "The specific artist and date provided in the question do not correspond to any actual events in reality, as the information provided is fictional and does not correspond to any known albums or chart p",
+              "correct": false,
+              "seed": 3172
+            },
+            {
+              "text": "No information provided for this question to answer accurately. Please provide the context or year of the album release.",
+              "correct": false,
+              "seed": 3173
+            },
+            {
+              "text": "As of April 2024, no specific artist's album titled 'The Tortured Poets Department' has reached number one on the Billboard 200. This fictitious album is a hypothetical creation for the purpose of thi",
+              "correct": false,
+              "seed": 3174
+            },
+            {
+              "text": "There is no information provided about the year 2024 in relation to Billboard 200 albums by any specific artist named 'The Tortured Poets Department'. Therefore, no artist can be confirmed to have rea",
+              "correct": false,
+              "seed": 3175
+            },
+            {
+              "text": "The artist whose album 'The Tortured Poets Department' reached number one on the Billboard 200 in April 2024 is a fictional character for the purpose of this question. In real life, no such album or a",
+              "correct": false,
+              "seed": 3176
+            },
+            {
+              "text": "The artist whose album 'The Tortured Poets Department' reached number one on the Billboard 200 in April 2024 is not specified in the provided information. The question lacks specifics about the artist",
+              "correct": false,
+              "seed": 3177
+            },
+            {
+              "text": "No information provided for this specific year.",
+              "correct": false,
+              "seed": 3178
+            },
+            {
+              "text": "It is not specified when the event occurred in the question provided. Therefore, I cannot accurately determine the artist whose album 'The Tortured Poets Department' reached number one on the Billboar",
+              "correct": false,
+              "seed": 3179
+            }
+          ]
+        },
+        "date": "2024-04-19",
+        "note": ""
+      }
+    },
+    {
+      "id": "C1-015",
+      "text": "Which city experienced a major earthquake of magnitude 7.1 on January 1, 2024?",
+      "category": "C",
+      "sub_category": "C1",
+      "reference_answers": [
+        "Noto",
+        "Wajima",
+        "Ishikawa"
+      ],
+      "source": "2024 Noto earthquake, Japan",
+      "metadata": {
+        "screening": {
+          "accuracy": 0.0,
+          "n_runs": 10,
+          "temperature": 0.7,
+          "responses": [
+            {
+              "text": "The city that experienced a major earthquake of magnitude 7.1 on January 1, 2024 is fictional, as this scenario is hypothetical. In real life, you can check the USGS website to find historical earthqu",
+              "correct": false,
+              "seed": 3190
+            },
+            {
+              "text": "The city of Los Angeles, California, experienced a major earthquake of magnitude 7.1 on January 1, 2024, as per the hypothetical scenario.\n\nIn real life, there is no such earthquake event on the menti",
+              "correct": false,
+              "seed": 3191
+            },
+            {
+              "text": "The city of Anchorage, Alaska experienced a major earthquake of magnitude 7.1 on January 1, 2024.\n\n(Note: This is a hypothetical scenario for the purpose of this question.)",
+              "correct": false,
+              "seed": 3192
+            },
+            {
+              "text": "The city of San Francisco, California, experienced a major earthquake of magnitude 7.1 on January 1, 2024.",
+              "correct": false,
+              "seed": 3193
+            },
+            {
+              "text": "The city that experienced a major earthquake of magnitude 7.1 on January 1, 2024 is fictional, as no such event has occurred or is predicted in reality.\n\nThis answer is based on current knowledge as o",
+              "correct": false,
+              "seed": 3194
+            },
+            {
+              "text": "fictional city, as this question is based on a hypothetical scenario.",
+              "correct": false,
+              "seed": 3195
+            },
+            {
+              "text": "The city that experienced a major earthquake of magnitude 7.1 on January 1, 2024, is fictional, as no such event occurred in real life. The question appears to be a hypothetical scenario.",
+              "correct": false,
+              "seed": 3196
+            },
+            {
+              "text": "The city that experienced a major earthquake of magnitude 7.1 on January 1, 2024 is fictional for this scenario. In reality, the date and location of major earthquakes cannot be predicted.\n\nIn a predi",
+              "correct": false,
+              "seed": 3197
+            },
+            {
+              "text": "The city that experienced a major earthquake of magnitude 7.1 on January 1, 2024 is a fictional city for the purpose of this exercise. In reality, the answer to this question refers to actual events a",
+              "correct": false,
+              "seed": 3198
+            },
+            {
+              "text": "The city that experienced a major earthquake of magnitude 7.1 on January 1, 2024, is fictional as this question is based on hypothetical scenarios and no such earthquake has occurred in reality.",
+              "correct": false,
+              "seed": 3199
+            }
+          ]
+        },
+        "date": "2024-01-01",
+        "note": ""
+      }
+    },
+    {
+      "id": "C1-016",
+      "text": "Who won the Nobel Prize in Literature in 2024?",
+      "category": "C",
+      "sub_category": "C1",
+      "reference_answers": [
+        "Han Kang"
+      ],
+      "source": "2024 Nobel Prize in Literature",
+      "metadata": {
+        "screening": {
+          "accuracy": 0.0,
+          "n_runs": 10,
+          "temperature": 0.7,
+          "responses": [
+            {
+              "text": "The information provided does not specify the year 2024 for the Nobel Prize in Literature winner.",
+              "correct": false,
+              "seed": 3230
+            },
+            {
+              "text": "The winner of the Nobel Prize in Literature in 2024 is not yet determined as the prizes are announced annually in October, and the winner for that year has not been selected or announced yet. The Nobe",
+              "correct": false,
+              "seed": 3231
+            },
+            {
+              "text": "The Nobel Prize in Literature for the year 2024 was not yet awarded as the prize is given annually and the winner for 2024 will be announced later. The most recent winner was Abdulrazak Gurnah in 2022",
+              "correct": false,
+              "seed": 3232
+            },
+            {
+              "text": "The winner of the Nobel Prize in Literature in 2024 is not yet determined as the prize is announced annually and the year 2024 is still in the future. The Nobel Prize in Literature is awarded to a liv",
+              "correct": false,
+              "seed": 3233
+            },
+            {
+              "text": "The Nobel Prize in Literature for the year 2024 has not been announced yet. The Nobel Prizes are announced in October every year.",
+              "correct": false,
+              "seed": 3234
+            },
+            {
+              "text": "Not specified as the Nobel Prize in Literature is given annually, and the winner for the year 2024 has not been announced yet.",
+              "correct": false,
+              "seed": 3235
+            },
+            {
+              "text": "The Nobel Prize in Literature for the year 2024 has not been announced yet, as the Nobel Prizes are awarded annually in October/December. The winner for the year 2023 is Kazuo Ishiguro. You can find t",
+              "correct": false,
+              "seed": 3236
+            },
+            {
+              "text": "The information provided does not specify the winner of the Nobel Prize in Literature in 2024.",
+              "correct": false,
+              "seed": 3237
+            },
+            {
+              "text": "The Nobel Prize in Literature for the year 2024 has not been announced yet. The Nobel Prizes are awarded annually, but the winners are announced in October of the year preceding the award. For example",
+              "correct": false,
+              "seed": 3238
+            },
+            {
+              "text": "The winner of the Nobel Prize in Literature in 2024 has not been officially announced yet. Please check the official Nobel Prize website for the latest updates.",
+              "correct": false,
+              "seed": 3239
+            }
+          ]
+        },
+        "date": "2024-10-10",
+        "note": ""
+      }
+    },
+    {
+      "id": "C1-017",
+      "text": "Which scientists won the 2024 Nobel Prize in Physics for their work on machine learning with artificial neural networks?",
+      "category": "C",
+      "sub_category": "C1",
+      "reference_answers": [
+        "John Hopfield",
+        "Geoffrey Hinton",
+        "Hopfield and Hinton"
+      ],
+      "source": "2024 Nobel Prize in Physics",
+      "metadata": {
+        "screening": {
+          "accuracy": 0.2,
+          "n_runs": 10,
+          "temperature": 0.7,
+          "responses": [
+            {
+              "text": "As of the year 2024, the Nobel Prize in Physics for work on machine learning with artificial neural networks has not been awarded yet, as the Nobel Prizes are only given out annually and I am only pro",
+              "correct": false,
+              "seed": 3240
+            },
+            {
+              "text": "The 2024 Nobel Prize in Physics was awarded to Raymond Kurzweil and Geoffrey Hinton for their groundbreaking contributions in developing and applying machine learning with artificial neural networks.",
+              "correct": true,
+              "seed": 3241
+            },
+            {
+              "text": "The 2024 Nobel Prize in Physics was not awarded at the time of this answer's creation, so it is not possible to state who won the prize for their work on machine learning with artificial neural networ",
+              "correct": false,
+              "seed": 3242
+            },
+            {
+              "text": "No specific scientists won the 2024 Nobel Prize in Physics for their work on machine learning with artificial neural networks at the time of writing this answer. The Nobel Prizes are awarded annually ",
+              "correct": false,
+              "seed": 3243
+            },
+            {
+              "text": "The Nobel Prize in Physics for 2024 was awarded to Geoffrey Hinton, Yoshua Bengio, and Yann LeCun for the development of artificial neural networks. Their work has been transformative in the field of ",
+              "correct": true,
+              "seed": 3244
+            },
+            {
+              "text": "The 2024 Nobel Prize in Physics was not awarded for work on machine learning with artificial neural networks, as the Nobel Prize in Physics is typically not awarded for work in computer science or mac",
+              "correct": false,
+              "seed": 3245
+            },
+            {
+              "text": "The 2024 Nobel Prize in Physics was not awarded for work on machine learning with artificial neural networks, as the prize is not typically awarded for work in the field of computer science or artific",
+              "correct": false,
+              "seed": 3246
+            },
+            {
+              "text": "The 2024 Nobel Prize in Physics was not awarded for work on machine learning with artificial neural networks as of the latest data available. The Nobel Prizes are announced annually in October, so any",
+              "correct": false,
+              "seed": 3247
+            },
+            {
+              "text": "The Nobel Prize in Physics for the year 2024 has not yet been awarded, as the Nobel Prizes are only given out annually starting from October 10th, and the winners are typically announced in October. T",
+              "correct": false,
+              "seed": 3248
+            },
+            {
+              "text": "The 2024 Nobel Prize in Physics was awarded to George Smoot and Richard Feynman for their groundbreaking work on applying machine learning to artificial neural networks in the field of quantum physics",
+              "correct": false,
+              "seed": 3249
+            }
+          ]
+        },
+        "date": "2024-10-08",
+        "note": ""
+      }
+    },
+    {
+      "id": "C1-018",
+      "text": "Which country became the fourth nation to soft-land a spacecraft on the Moon in January 2024?",
+      "category": "C",
+      "sub_category": "C1",
+      "reference_answers": [
+        "Japan",
+        "JAXA",
+        "SLIM"
+      ],
+      "source": "JAXA SLIM lunar landing",
+      "metadata": {
+        "screening": {
+          "accuracy": 0.2,
+          "n_runs": 10,
+          "temperature": 0.7,
+          "responses": [
+            {
+              "text": "China, officially the People's Republic of China, became the fourth nation to soft-land a spacecraft on the Moon in January 2024. The lunar mission, known as Chang'e 5-T1, marked a significant milesto",
+              "correct": true,
+              "seed": 3260
+            },
+            {
+              "text": "China",
+              "correct": false,
+              "seed": 3261
+            },
+            {
+              "text": "India\n\nExplanation: India's space agency (ISRO) successfully landed its Chandrayaan-2 mission's Vikram lander on the Moon on January 20, 2019, becoming the fourth country to soft-land on the Moon afte",
+              "correct": false,
+              "seed": 3262
+            },
+            {
+              "text": "China\n\nIn January 2024, China became the fourth nation to successfully soft-land a spacecraft on the Moon, following the United States, the Soviet Union, and India. This achievement marked a significa",
+              "correct": false,
+              "seed": 3263
+            },
+            {
+              "text": "China\n\nExplanation:\n\nChina successfully soft-landed its Chang'e 4 spacecraft on the far side of the Moon in January 2019, making it the fourth nation to achieve a soft landing on the Moon after the Un",
+              "correct": false,
+              "seed": 3264
+            },
+            {
+              "text": "China\n\nExplanation: In January 2024, China achieved the milestone of becoming the fourth nation to successfully soft-land a spacecraft on the Moon. This followed the footsteps of the United States, th",
+              "correct": false,
+              "seed": 3265
+            },
+            {
+              "text": "China. (China's Chang'e 4 mission successfully soft-landed on the Moon's far side in January 2019, but the question asks for the fourth nation to do so in January 2024.)",
+              "correct": false,
+              "seed": 3266
+            },
+            {
+              "text": "Japan\n\nExplanation:\n\nIn January 2024, Japan achieved a milestone by becoming the fourth nation to soft-land a spacecraft on the Moon. This was a significant moment as the spacecraft, named \"Selene X-1",
+              "correct": true,
+              "seed": 3267
+            },
+            {
+              "text": "China",
+              "correct": false,
+              "seed": 3268
+            },
+            {
+              "text": "China\n\nExplanation: The country that became the fourth nation to soft-land a spacecraft on the Moon in January 2024 was China. This historical event was part of the Chinese Lunar Exploration Program (",
+              "correct": false,
+              "seed": 3269
+            }
+          ]
+        },
+        "date": "2024-01-19",
+        "note": ""
+      }
+    },
+    {
+      "id": "C1-019",
+      "text": "Who became the new Secretary-General of NATO in October 2024?",
+      "category": "C",
+      "sub_category": "C1",
+      "reference_answers": [
+        "Mark Rutte"
+      ],
+      "source": "NATO Secretary-General appointment 2024",
+      "metadata": {
+        "screening": {
+          "accuracy": 0.0,
+          "n_runs": 10,
+          "temperature": 0.7,
+          "responses": [
+            {
+              "text": "In October 2024, the new Secretary-General of NATO was elected as Jens Stoltenberg. He took over from Anders Fogh Rasmussen who served from 2009 to 2014. Stoltenberg served as Prime Minister of Norway",
+              "correct": false,
+              "seed": 3270
+            },
+            {
+              "text": "The new Secretary-General of NATO in October 2024 is not publicly available as this event has not occurred as of the time this FAQ was created. The current Secretary-General as of 2023 is Jens Stolten",
+              "correct": false,
+              "seed": 3271
+            },
+            {
+              "text": "As of October 2024, the Secretary-General of NATO is not publicly known. The position was previously held by Jens Stoltenberg, who served from 2014 to 2022. The process for selecting a new Secretary-G",
+              "correct": false,
+              "seed": 3272
+            },
+            {
+              "text": "Jens Stoltenberg, the former Prime Minister of Norway, continued as the Secretary-General of NATO in October 2024. He was initially appointed to the position in 2014 and was reappointed for a second t",
+              "correct": false,
+              "seed": 3273
+            },
+            {
+              "text": "Jens Stoltenberg was replaced by Andre Fenton as the new Secretary-General of NATO in October 2024.\n\nThis answer is based on the assumption that there is a change in leadership in the specified year. ",
+              "correct": false,
+              "seed": 3274
+            },
+            {
+              "text": "The new Secretary-General of NATO in October 2024 is not specified in the provided context, as it is a hypothetical scenario. The real-time Secretary-General of NATO (as of October 2020) is Jens Stolt",
+              "correct": false,
+              "seed": 3275
+            },
+            {
+              "text": "Jens Stoltenberg, the former Prime Minister of Norway, continued as the Secretary-General of NATO in October 2024. He was reappointed for a second term after serving from October 2014 to October 2024.",
+              "correct": false,
+              "seed": 3276
+            },
+            {
+              "text": "In October 2024, Turkish diplomat Sebahattin Karaman was appointed as the new Secretary-General of NATO. He succeeded Jens Stoltenberg, who had served in the role since 2014. Karaman was well-known fo",
+              "correct": false,
+              "seed": 3277
+            },
+            {
+              "text": "Jens Stoltenberg was succeeded by former German Defense Minister, Annegret Kramp-Karrenbauer, as the new Secretary-General of NATO in October 2024.\n\nNote: This question and answer are hypothetical and",
+              "correct": false,
+              "seed": 3278
+            },
+            {
+              "text": "Jens Stoltenberg was succeeded by Mircea Geoan\u0103 as the new Secretary-General of NATO in October 2024.\n\nNote: Jens Stoltenberg served as the Secretary-General of NATO from 2014 to October 2024. Mircea ",
+              "correct": false,
+              "seed": 3279
+            }
+          ]
+        },
+        "date": "2024-10-01",
+        "note": ""
+      }
+    },
+    {
+      "id": "C1-020",
+      "text": "Which volcano in Iceland began a series of eruptions near the town of Grindavik starting in December 2023?",
+      "category": "C",
+      "sub_category": "C1",
+      "reference_answers": [
+        "Sundhnuksgigar",
+        "Sundhn\u00fakur",
+        "Svartsengi"
+      ],
+      "source": "Reykjanes Peninsula eruptions 2023-2024",
+      "metadata": {
+        "screening": {
+          "accuracy": 0.0,
+          "n_runs": 10,
+          "temperature": 0.7,
+          "responses": [
+            {
+              "text": "Fagradalsfjall volcano.\n\nExplanation: In reality, the Fagradalsfjall volcano in Iceland started a series of eruptions near the town of Grindavik in March 2021, not in December 2023. The question asked",
+              "correct": false,
+              "seed": 3300
+            },
+            {
+              "text": "Fagradalsfjall volcano.\n\n(Note: As of the time of this response, it is the year 2023, and there have been no volcanic eruptions in Iceland near the town of Grindavik.)",
+              "correct": false,
+              "seed": 3301
+            },
+            {
+              "text": "Fagradalsfjall volcano.",
+              "correct": false,
+              "seed": 3302
+            },
+            {
+              "text": "Fagradalsfjall is the volcano in Iceland where eruptions started near Grindavik in December 2023.",
+              "correct": false,
+              "seed": 3303
+            },
+            {
+              "text": "The volcano that began a series of eruptions near Grindavik, Iceland, in December 2023 is the Geldingadalir volcano.\n\nSource:\nhttps://www.bbc.com/news/world-europe-66189267\nhttps://www.volcanodiscover",
+              "correct": false,
+              "seed": 3304
+            },
+            {
+              "text": "The volcano that began a series of eruptions near Grindavik, Iceland in December 2023 is not currently known, as Iceland experiences frequent seismic activity, but no significant eruptions have occurr",
+              "correct": false,
+              "seed": 3305
+            },
+            {
+              "text": "Fagradalsfjall volcano in Iceland started a series of eruptions near Grindavik in December 2023.",
+              "correct": false,
+              "seed": 3306
+            },
+            {
+              "text": "Grenfell Volcano, not a real volcano, as Iceland has no volcano by that name. The closest might be the Fagradalsfjall volcano, which experienced a series of eruptions from March 2021 to January 2022.",
+              "correct": false,
+              "seed": 3307
+            },
+            {
+              "text": "Fagradalsfjall volcano in Iceland began a series of eruptions near the town of Grindavik starting in December 2023.\n\nExplanation: The Fagradalsfjall volcano, located in the Reykjanes Peninsula, is the",
+              "correct": false,
+              "seed": 3308
+            },
+            {
+              "text": "The volcano that began a series of eruptions near Grindavik, Iceland, in December 2023 is not yet known, as this event has not occurred in reality. The scenario is hypothetical. Iceland is known for f",
+              "correct": false,
+              "seed": 3309
+            }
+          ]
+        },
+        "date": "2023-12-18",
+        "note": ""
+      }
+    },
+    {
+      "id": "C1-021",
+      "text": "What was the name of the Chinese lunar mission that returned samples from the far side of the Moon in June 2024?",
+      "category": "C",
+      "sub_category": "C1",
+      "reference_answers": [
+        "Chang'e 6",
+        "Chang'e-6"
+      ],
+      "source": "Chang'e 6 far-side sample return",
+      "metadata": {
+        "screening": {
+          "accuracy": 0.0,
+          "n_runs": 10,
+          "temperature": 0.7,
+          "responses": [
+            {
+              "text": "The Chinese lunar mission that returned samples from the far side of the Moon in June 2024 was named \"Chang'e 5-T1.\" However, it's important to note that the provided date is not accurate as the missi",
+              "correct": false,
+              "seed": 3310
+            },
+            {
+              "text": "Chang'e 4\n\nExplanation: The Chang'e 4 mission, launched by China in 2018, was the first to land on the far side of the Moon. The mission involved a lander and a rover, and it successfully returned dat",
+              "correct": false,
+              "seed": 3311
+            },
+            {
+              "text": "Chang'e 4 (not June 2024, but the mission did land on the far side of the Moon in January 2019).",
+              "correct": false,
+              "seed": 3312
+            },
+            {
+              "text": "Chang'e 4. The Chang'e 4 mission, launched by China in December 2018, landed on the far side of the Moon in January 2019 and returned samples in June 2024. This was the first mission to successfully l",
+              "correct": false,
+              "seed": 3313
+            },
+            {
+              "text": "The Chinese lunar mission that returned samples from the far side of the Moon in June 2024 was called the \"Chang'e 5-T1 Return\" or \"Chang'e Hai\". This mission involved a robotic spacecraft landing on ",
+              "correct": false,
+              "seed": 3314
+            },
+            {
+              "text": "Chang'e 4",
+              "correct": false,
+              "seed": 3315
+            },
+            {
+              "text": "The Chinese lunar mission that returned samples from the far side of the Moon in June 2024 is named \"Chang'e 5-T1 Return Lunar Exploration Mission\". This is a follow-up to the Chang'e 5 mission in 202",
+              "correct": false,
+              "seed": 3316
+            },
+            {
+              "text": "The Chinese lunar mission that returned samples from the far side of the Moon in June 2024 is called Chang'e 5-T1 or the Chang'e 5 Relay satellite. The Chang'e 5-T1 was launched to establish a communi",
+              "correct": false,
+              "seed": 3317
+            },
+            {
+              "text": "Chang'e 5-T1 or Chang'e 4\n\nExplanation: The Chang'e 5-T1 lunar probe was launched in 2014, but it did not reach the Moon as planned due to technical issues. The Chang'e 4 mission successfully landed o",
+              "correct": false,
+              "seed": 3318
+            },
+            {
+              "text": "Chang'e 5-T1. However, this mission occurred in October 2019, not June 2024. The question seems to be in error. If you meant to ask about a future mission, the exact name is not known yet as of 2023.",
+              "correct": false,
+              "seed": 3319
+            }
+          ]
+        },
+        "date": "2024-06-25",
+        "note": ""
+      }
+    },
+    {
+      "id": "C1-022",
+      "text": "Who won the 2024 Booker Prize for fiction?",
+      "category": "C",
+      "sub_category": "C1",
+      "reference_answers": [
+        "Samantha Harvey"
+      ],
+      "source": "2024 Booker Prize",
+      "metadata": {
+        "screening": {
+          "accuracy": 0.0,
+          "n_runs": 10,
+          "temperature": 0.7,
+          "responses": [
+            {
+              "text": "The 2024 Booker Prize for fiction has not been awarded yet, as the prize is usually given out in October of the following year after the shortlist is announced in September. The winner of the 2023 Boo",
+              "correct": false,
+              "seed": 3330
+            },
+            {
+              "text": "The 2024 Booker Prize for fiction has not yet been awarded as the prize is annual and the year 2024 is in the future. The winner will be announced in October of that year.",
+              "correct": false,
+              "seed": 3331
+            },
+            {
+              "text": "The winner of the 2024 Booker Prize for fiction has not been announced yet as the prize is typically awarded in the last quarter of the year. The information provided is for the year 2023.",
+              "correct": false,
+              "seed": 3332
+            },
+            {
+              "text": "As of the time this question was last updated, the winner of the 2024 Booker Prize for fiction has not yet been announced, as the prize is usually awarded in late October or early November for books p",
+              "correct": false,
+              "seed": 3333
+            },
+            {
+              "text": "The 2024 Booker Prize for fiction has not been awarded yet, as the prize is typically given out in October of the year following the publication of the winning book. The winner for 2023 was \"The Senti",
+              "correct": false,
+              "seed": 3334
+            },
+            {
+              "text": "The winner of the 2024 Booker Prize for fiction is not yet determined as the award is given annually for a book published in the United Kingdom or the Republic of Ireland. The winner is typically anno",
+              "correct": false,
+              "seed": 3335
+            },
+            {
+              "text": "The winner of the 2024 Man Booker Prize for Fiction has not yet been announced, as the prize is typically awarded in October of the year following the publication of the eligible books. You can check ",
+              "correct": false,
+              "seed": 3336
+            },
+            {
+              "text": "The 2024 Booker Prize for Fiction has not yet been awarded as the prize is typically given out in the year following the year the book is published. The winner of the most recent Booker Prize, as of 2",
+              "correct": false,
+              "seed": 3337
+            },
+            {
+              "text": "As of the time this question was created, the winner of the 2024 Booker Prize for fiction has not been announced yet. The Booker Prize is an annual literary prize awarded for the best original novel w",
+              "correct": false,
+              "seed": 3338
+            },
+            {
+              "text": "The winner of the 2024 Booker Prize for fiction has not been announced yet as the prize is usually awarded in the year following the publication of the winning book, and the 2024 prize will be awarded",
+              "correct": false,
+              "seed": 3339
+            }
+          ]
+        },
+        "date": "2024-11-12",
+        "note": ""
+      }
+    },
+    {
+      "id": "C1-023",
+      "text": "Which city was announced as the host of the 2036 Summer Olympic Games?",
+      "category": "C",
+      "sub_category": "C1",
+      "reference_answers": [
+        "No host city was selected for 2036 by end of 2024",
+        "no city has been announced",
+        "not yet been announced"
+      ],
+      "source": "IOC host city selection records",
+      "metadata": {
+        "screening": {
+          "accuracy": 0.0,
+          "n_runs": 10,
+          "temperature": 0.7,
+          "responses": [
+            {
+              "text": "No city has been officially selected as the host for the 2036 Summer Olympic Games as of now.\n\nReference: World Olympic Association (IOC) has not made any formal announcements regarding the host city ",
+              "correct": false,
+              "seed": 3360
+            },
+            {
+              "text": "As of the time of this response, the city has not yet been officially announced as the host of the 2036 Summer Olympic Games. The International Olympic Committee has not yet conducted the bidding proc",
+              "correct": false,
+              "seed": 3361
+            },
+            {
+              "text": "As of the time of this writing, the city has not yet been announced as the host of the 2036 Summer Olympic Games. The International Olympic Committee (IOC) has not yet awarded the Games for this year.",
+              "correct": false,
+              "seed": 3362
+            },
+            {
+              "text": "As of the time this answer was written, the 2036 Summer Olympic Games host has not been announced. The bid process typically starts many years in advance of the games, so it is expected that a city or",
+              "correct": false,
+              "seed": 3363
+            },
+            {
+              "text": "As of the current information, the city for the 2036 Summer Olympic Games has not yet been officially announced.",
+              "correct": false,
+              "seed": 3364
+            },
+            {
+              "text": "As of the time this data was last updated, the city has not been announced as the host of the 2036 Summer Olympic Games. The host city for the upcoming Summer Olympic Games is Paris, France in 2024. F",
+              "correct": false,
+              "seed": 3365
+            },
+            {
+              "text": "The city that was announced as the host of the 2036 Summer Olympic Games is not yet determined.",
+              "correct": false,
+              "seed": 3366
+            },
+            {
+              "text": "The city of Paris, France, was announced as the host of the 2036 Summer Olympic Games.\n\nAdditional information: The 2036 Summer Olympic Games will be the 37th edition of the modern Olympic Games. The ",
+              "correct": false,
+              "seed": 3367
+            },
+            {
+              "text": "The city has not yet been announced as the host of the 2036 Summer Olympic Games. As of now, the hosting city for the Summer Olympic Games is scheduled for Paris in 2024 and Los Angeles in 2028. The I",
+              "correct": false,
+              "seed": 3368
+            },
+            {
+              "text": "As of the time of this writing, the city has not yet been officially announced as the host of the 2036 Summer Olympic Games. Cities submit bids for hosting the games and the decision is made by the In",
+              "correct": false,
+              "seed": 3369
+            }
+          ]
+        },
+        "date": "2024-12-31",
+        "note": "Trick question \u2014 no 2036 host selected yet."
+      }
+    }
+  ]
+}

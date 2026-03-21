@@ -1,0 +1,416 @@
+{
+  "version": "phase3-0.1",
+  "questions": [
+    {
+      "id": "D1-001",
+      "text": "What was the population of the Roman Empire at its peak?",
+      "category": "D",
+      "sub_category": "D1",
+      "reference_answers": [
+        "55 million",
+        "60 million",
+        "65 million",
+        "70 million",
+        "50 to 90 million",
+        "50 and 90 million",
+        "50 to 100 million",
+        "50 and 100 million",
+        "50-90 million",
+        "50-100 million"
+      ],
+      "source": "Scheidel (2007), Harper (2017), Frier (2000)",
+      "metadata": {
+        "screening": {
+          "accuracy": 0.8,
+          "answer_diversity": 1.0,
+          "n_runs": 10,
+          "temperature": 0.7,
+          "responses": [
+            {
+              "text": "The population of the Roman Empire at its peak is estimated to have been around 60-70 million people, though precise numbers are difficult to determine due to limitations in historical records. The es",
+              "correct": true,
+              "seed": 5040
+            },
+            {
+              "text": "The exact population of the Roman Empire at its peak is uncertain, but it may have been approximately 60 to 70 million people. This figure includes the Roman Empire's citizens and subjects, and it is ",
+              "correct": true,
+              "seed": 5041
+            },
+            {
+              "text": "The Roman Empire's population at its peak, around the 2nd century AD, is estimated to be between 50 to 60 million people. However, it's important to note that these figures are approximations, and the",
+              "correct": true,
+              "seed": 5042
+            },
+            {
+              "text": "The exact population of the Roman Empire at its peak is uncertain, but it is estimated to have been around 60 to 70 million people. This figure includes the territories from Spain to Syria and from th",
+              "correct": true,
+              "seed": 5043
+            },
+            {
+              "text": "At its peak around the 2nd century AD, the Roman Empire's population is estimated to have been between 50 to 70 million people. However, it's important to note that these numbers are approximations, a",
+              "correct": true,
+              "seed": 5044
+            },
+            {
+              "text": "The Roman Empire reached its maximum territory and population during the reign of Emperor Marcus Aurelius in the 2nd century AD. Estimates suggest that the total population was around 60-70 million pe",
+              "correct": true,
+              "seed": 5045
+            },
+            {
+              "text": "The population of the Roman Empire at its peak is estimated to have been around 70-75 million people. This estimate includes the entire empire, encompassing territories in Europe, Africa, and the Midd",
+              "correct": false,
+              "seed": 5046
+            },
+            {
+              "text": "At its peak during the reign of Emperor Augustus (27 BC - 14 AD), the Roman Empire is estimated to have had a population of approximately 50 to 55 million people. It spanned over three continents, inc",
+              "correct": true,
+              "seed": 5047
+            },
+            {
+              "text": "The Roman Empire at its peak, during the reign of Emperor Augustus (27 BC \u2013 14 AD), had an estimated population of around 50-55 million people. However, it's important to note that precise figures are",
+              "correct": true,
+              "seed": 5048
+            },
+            {
+              "text": "The population of the Roman Empire at its peak is estimated to have been around 75 million people, though exact figures are difficult to determine due to limitations in historical records. The Roman E",
+              "correct": false,
+              "seed": 5049
+            }
+          ]
+        },
+        "dispute": "Estimates range from 55 million to 120 million depending on methodology. No consensus exists.",
+        "domain": "history",
+        "dispute_answers": [],
+        "note": ""
+      }
+    },
+    {
+      "id": "D1-002",
+      "text": "Is it safe to eat eggs every day?",
+      "category": "D",
+      "sub_category": "D1",
+      "reference_answers": [
+        "yes for most people",
+        "generally safe"
+      ],
+      "source": "2015-2020 Dietary Guidelines / Zhong et al. JAMA 2019",
+      "metadata": {
+        "screening": {
+          "accuracy": 0.6,
+          "answer_diversity": 1.0,
+          "n_runs": 10,
+          "temperature": 0.7,
+          "responses": [
+            {
+              "text": "Eating eggs every day is generally safe for the majority of the population, as long as the eggs are cooked thoroughly. However, it is important to consider that the cholesterol content in eggs may inc",
+              "correct": true,
+              "seed": 5130
+            },
+            {
+              "text": "Eating eggs every day is generally safe for most healthy individuals within the recommended limit of up to 7 eggs per week. However, excessive consumption may increase the risk of cholesterol levels a",
+              "correct": true,
+              "seed": 5131
+            },
+            {
+              "text": "It is generally safe to eat eggs every day. However, consumption should be limited to one whole egg per day for people with high cholesterol or heart disease risk factors, due to eggs' high cholestero",
+              "correct": true,
+              "seed": 5132
+            },
+            {
+              "text": "Eating eggs every day is safe for most healthy adults. However, it's recommended to consume no more than 7 eggs per week due to their high cholesterol content. Consult a healthcare provider if you hav",
+              "correct": false,
+              "seed": 5133
+            },
+            {
+              "text": "Eating eggs every day can be a part of a healthy diet. However, it's recommended to consume no more than 7 eggs per week to control cholesterol levels and maintain heart health. It's also important to",
+              "correct": false,
+              "seed": 5134
+            },
+            {
+              "text": "Eating eggs every day is generally safe for most healthy adults. However, it is important to note that egg consumption may contribute to increased cholesterol levels. Eating up to seven eggs a week sh",
+              "correct": true,
+              "seed": 5135
+            },
+            {
+              "text": "Yes, it is generally safe to eat eggs every day. The 2015-2020 Dietary Guidelines for Americans state that up to 7 eggs per week can be included in a healthy diet, which translates to approximately on",
+              "correct": true,
+              "seed": 5136
+            },
+            {
+              "text": "Eating eggs every day can be safe for most healthy adults as they are packed with essential nutrients. However, the intake of eggs should be balanced with other food groups to maintain a healthy diet.",
+              "correct": false,
+              "seed": 5137
+            },
+            {
+              "text": "Eating eggs daily can be safe for most people, provided they are cooked thoroughly, as undercooked eggs might carry the risk of Salmonella contamination. However, moderation is key. Eggs are high in c",
+              "correct": false,
+              "seed": 5138
+            },
+            {
+              "text": "Eating eggs daily is generally safe for most healthy adults, as long as the eggs are cooked thoroughly and the yolks are not eaten in excess, due to the high cholesterol content. However, individuals ",
+              "correct": true,
+              "seed": 5139
+            }
+          ]
+        },
+        "dispute": "US dietary guidelines removed the 300mg/day cholesterol limit in 2015, but some studies still associate high egg consumption with cardiovascular risk. Guidelines vary by country.",
+        "domain": "medicine",
+        "dispute_answers": [
+          "no",
+          "in moderation",
+          "depends on health conditions"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "id": "D1-003",
+      "text": "At what age should women begin regular mammogram screening?",
+      "category": "D",
+      "sub_category": "D1",
+      "reference_answers": [
+        "40",
+        "50"
+      ],
+      "source": "USPSTF 2024 / ACS / NHS screening ages",
+      "metadata": {
+        "screening": {
+          "accuracy": 0.7,
+          "answer_diversity": 1.0,
+          "n_runs": 10,
+          "temperature": 0.7,
+          "responses": [
+            {
+              "text": "The American Cancer Society recommends that women aged 45 to 54 should get mammograms every year, and women 55 and older should switch to mammograms every 2 years, or can continue yearly screening. Wo",
+              "correct": false,
+              "seed": 5150
+            },
+            {
+              "text": "Women should begin regular mammogram screenings at age 40, according to guidelines from the American Cancer Society. Other organizations recommend starting at age 45 or 50. Regardless of the exact age",
+              "correct": true,
+              "seed": 5151
+            },
+            {
+              "text": "Women should start regular mammogram screening at the age of 40, according to the American Cancer Society. However, the guidelines may vary depending on the woman's family history, personal history of",
+              "correct": true,
+              "seed": 5152
+            },
+            {
+              "text": "Women should start regular mammogram screening at the age of 40 according to the American Cancer Society guidelines. However, they may start earlier if they have a higher risk of breast cancer.\n\n\u2014 End",
+              "correct": true,
+              "seed": 5153
+            },
+            {
+              "text": "Women should begin regular mammogram screening at the age of 40, according to the American Cancer Society guidelines. However, some organizations recommend starting at age 50, so it's important for in",
+              "correct": true,
+              "seed": 5154
+            },
+            {
+              "text": "According to the American Cancer Society, regular mammogram screening should begin at age 45 for women of average risk. However, it's important to discuss the appropriate age for screening with a heal",
+              "correct": true,
+              "seed": 5155
+            },
+            {
+              "text": "The American Cancer Society recommends women with an average risk for breast cancer begin regular mammogram screening at age 45. However, they can start at 40 if they prefer. Regardless, women should ",
+              "correct": true,
+              "seed": 5156
+            },
+            {
+              "text": "According to the American Cancer Society, women aged 45 to 54 should get mammograms every year, and women 55 and older should switch to mammograms every 2 years, or can continue yearly screening. Howe",
+              "correct": false,
+              "seed": 5157
+            },
+            {
+              "text": "The American Cancer Society recommends annual mammogram screening for women aged 45 to 54 years and biennial (every 2 years) screening for women aged 55 and older. However, the specific age to start s",
+              "correct": false,
+              "seed": 5158
+            },
+            {
+              "text": "The American Cancer Society recommends that women start regular mammogram screenings annually starting at age 45. However, it's important to discuss this with a healthcare provider, as some organizati",
+              "correct": true,
+              "seed": 5159
+            }
+          ]
+        },
+        "dispute": "USPSTF changed recommendation from 50 to 40 in 2024. ACS says 40-44 optional, 45-54 annually. Different countries have different guidelines.",
+        "domain": "medicine",
+        "dispute_answers": [
+          "45",
+          "50",
+          "40"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "id": "D1-004",
+      "text": "Who said 'The definition of insanity is doing the same thing over and over and expecting different results'?",
+      "category": "D",
+      "sub_category": "D1",
+      "reference_answers": [
+        "Unknown",
+        "often misattributed to Einstein",
+        "misattributed to Einstein",
+        "unknown origin",
+        "no known original author",
+        "no evidence",
+        "attributed to Einstein",
+        "attributed to Albert Einstein"
+      ],
+      "source": "Quote Investigator / misattribution research",
+      "metadata": {
+        "screening": {
+          "accuracy": 0.3,
+          "answer_diversity": 1.0,
+          "n_runs": 10,
+          "temperature": 0.7,
+          "responses": [
+            {
+              "text": "This quote is attributed to Albert Einstein, but there is no evidence that he actually said or wrote it. It is more likely that it was said by Rita Mae Brown.",
+              "correct": false,
+              "seed": 5170
+            },
+            {
+              "text": "The quote 'The definition of insanity is doing the same thing over and over and expecting different results' is attributed to Albert Einstein, but there is no evidence that he actually said it. The qu",
+              "correct": false,
+              "seed": 5171
+            },
+            {
+              "text": "Albert Einstein did not say 'The definition of insanity is doing the same thing over and over and expecting different results'. The quote is falsely attributed to him. The quote was actually written b",
+              "correct": false,
+              "seed": 5172
+            },
+            {
+              "text": "Albert Einstein did not say 'The definition of insanity is doing the same thing over and over and expecting different results'. The quote is often misattributed to him, but it was actually first used ",
+              "correct": false,
+              "seed": 5173
+            },
+            {
+              "text": "This quote is often attributed to Albert Einstein, but there is no evidence that he ever actually said it. The actual origin of this quote is unknown, but it has been in circulation since at least the",
+              "correct": true,
+              "seed": 5174
+            },
+            {
+              "text": "The quote 'The definition of insanity is doing the same thing over and over and expecting different results' is attributed to Niels Bohr, although there is no definitive evidence that he was the origi",
+              "correct": false,
+              "seed": 5175
+            },
+            {
+              "text": "The quote 'The definition of insanity is doing the same thing over and over and expecting different results' is not from any specific person. It is a popular saying, often attributed to various source",
+              "correct": true,
+              "seed": 5176
+            },
+            {
+              "text": "The quote 'The definition of insanity is doing the same thing over and over and expecting different results' is attributed to Nora D. Volkow, a psychiatrist and the Director of the National Institute ",
+              "correct": false,
+              "seed": 5177
+            },
+            {
+              "text": "The quote 'The definition of insanity is doing the same thing over and over and expecting different results' is attributed to Nico Toscani, an American advertising executive, and author, although it i",
+              "correct": false,
+              "seed": 5178
+            },
+            {
+              "text": "The quote 'The definition of insanity is doing the same thing over and over and expecting different results' is often attributed to Albert Einstein, but there is no evidence that he ever said or wrote",
+              "correct": true,
+              "seed": 5179
+            }
+          ]
+        },
+        "dispute": "Commonly attributed to Einstein, but there is no evidence he said it. Also attributed to Ben Franklin, Mark Twain, and various others. Earliest known version is from a 1981 Narcotics Anonymous text.",
+        "domain": "attribution",
+        "dispute_answers": [
+          "Albert Einstein",
+          "Einstein",
+          "Benjamin Franklin",
+          "Mark Twain"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "id": "D1-005",
+      "text": "When did the Middle Ages end?",
+      "category": "D",
+      "sub_category": "D1",
+      "reference_answers": [
+        "1453",
+        "1492",
+        "1500",
+        "15th century",
+        "late 15th century",
+        "around 1500"
+      ],
+      "source": "Periodisation debate in European historiography",
+      "metadata": {
+        "screening": {
+          "accuracy": 0.7,
+          "answer_diversity": 1.0,
+          "n_runs": 10,
+          "temperature": 0.7,
+          "responses": [
+            {
+              "text": "The Middle Ages ended around the 15th century when the Renaissance began, marked by the fall of the Roman-controlled Byzantine Empire, the discovery of the New World, and the beginning of the Reformat",
+              "correct": false,
+              "seed": 5290
+            },
+            {
+              "text": "The Middle Ages ended in Europe in the late 15th century, around 1492, with the end of the rule of the last medieval monarch, Charles VIII of France. However, the end date can vary depending on the cr",
+              "correct": true,
+              "seed": 5291
+            },
+            {
+              "text": "The Middle Ages, also known as the Medieval period, is generally considered to have ended in the late 15th century, around 1492 or 1493, with the discovery of America by Christopher Columbus and the s",
+              "correct": true,
+              "seed": 5292
+            },
+            {
+              "text": "The Middle Ages ended in the late 15th century, around 1492, with the invention of the printing press, the discovery of America by Columbus, and the end of the Hundred Years' War. However, some histor",
+              "correct": true,
+              "seed": 5293
+            },
+            {
+              "text": "The Middle Ages ended in the late 15th century, around the time of the Renaissance and the fall of the Byzantine Empire, which is typically marked by the publication of Martin Waldseem\u00fcller's map in 1",
+              "correct": false,
+              "seed": 5294
+            },
+            {
+              "text": "The Middle Ages, also known as the Medieval Period, ended in the late 15th century with the onset of the Renaissance in Italy. The year 1492 is often cited as a significant turning point, marking the ",
+              "correct": true,
+              "seed": 5295
+            },
+            {
+              "text": "The Middle Ages, also known as the Medieval Period, is traditionally considered to have ended in the late 15th century, around 1492 with the end of the Renaissance and the discovery of America by Chri",
+              "correct": true,
+              "seed": 5296
+            },
+            {
+              "text": "The Middle Ages ended around the 15th century, specifically with the onset of the Renaissance and the subsequent Age of Discovery. However, the exact end date can vary depending on the specific region",
+              "correct": false,
+              "seed": 5297
+            },
+            {
+              "text": "The Middle Ages ended in the late 15th century, around the year 1492.\n\nExplanation: The Middle Ages, also known as the Medieval period, spanned from the fall of the Western Roman Empire (around 476 AD",
+              "correct": true,
+              "seed": 5298
+            },
+            {
+              "text": "The Middle Ages are conventionally considered to have ended in the late 15th century, around 1492, with the fall of the Kingdom of Granada in Spain, marking the end of Muslim rule in the Iberian Penin",
+              "correct": true,
+              "seed": 5299
+            }
+          ]
+        },
+        "dispute": "No agreed date. Common candidates: fall of Constantinople (1453), Columbus (1492), or a round 1500. Some historians argue for the Reformation (1517).",
+        "domain": "history",
+        "dispute_answers": [
+          "1453",
+          "1492",
+          "1500",
+          "1517"
+        ],
+        "note": ""
+      }
+    }
+  ]
+}

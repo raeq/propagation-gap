@@ -1,0 +1,110 @@
+{
+    "_provenance": "Extracted from analysis/experiment_02/surface_form_controls_executed.ipynb (Session 073, 2026-02-27). All values use original (non-model-relative) labels on Mistral 7B question set (n=338, K=210, D=89, C=39).",
+    "model": "Mistral-7B-Instruct-v0.3",
+    "n_questions": 338,
+    "label_counts_original": {"K": 210, "D": 89, "C": 39},
+
+    "non_neural_baselines": {
+        "tfidf_500": {
+            "c_vs_d": {"mean_auroc": 0.945, "std_auroc": 0.048},
+            "k_vs_d": {"mean_auroc": 0.596, "std_auroc": 0.065},
+            "k_vs_c": {"mean_auroc": 0.951, "std_auroc": 0.024}
+        },
+        "surface_features_7var": {
+            "c_vs_d": {"mean_auroc": 0.829, "std_auroc": 0.091},
+            "k_vs_d": {"mean_auroc": 0.440, "std_auroc": 0.054},
+            "k_vs_c": {"mean_auroc": 0.811, "std_auroc": 0.088}
+        },
+        "token_rarity_2var": {
+            "c_vs_d": {"mean_auroc": 0.610, "std_auroc": 0.135},
+            "k_vs_d": {"mean_auroc": 0.458, "std_auroc": 0.038},
+            "k_vs_c": {"mean_auroc": 0.594, "std_auroc": 0.051}
+        }
+    },
+
+    "year_string_percentages": {
+        "K": 0.02,
+        "D": 0.00,
+        "C": 0.64,
+        "_note": "Fraction of questions matching \\b20[12]\\d\\b"
+    },
+
+    "surface_feature_means": {
+        "K": {"length": 80.76, "word_count": 14.03, "digit_count": 1.43, "has_year": 0.02},
+        "D": {"length": 77.70, "word_count": 13.51, "digit_count": 1.43, "has_year": 0.00},
+        "C": {"length": 72.77, "word_count": 12.51, "digit_count": 3.72, "has_year": 0.64}
+    },
+
+    "grouped_cv": {
+        "_note": "Train on C1+D_half, test on C2+D_half (and reverse). Mean of both directions.",
+        "Mistral 7B": {
+            "c_vs_d_by_layer": [
+                {"layer": 0, "c1_to_c2": 0.781, "c2_to_c1": 0.911, "mean": 0.846},
+                {"layer": 3, "c1_to_c2": 0.794, "c2_to_c1": 0.896, "mean": 0.845},
+                {"layer": 7, "c1_to_c2": 0.710, "c2_to_c1": 0.785, "mean": 0.747},
+                {"layer": 15, "c1_to_c2": 0.703, "c2_to_c1": 0.814, "mean": 0.759},
+                {"layer": 25, "c1_to_c2": 0.790, "c2_to_c1": 0.834, "mean": 0.812},
+                {"layer": 32, "c1_to_c2": 0.668, "c2_to_c1": 0.625, "mean": 0.647}
+            ],
+            "k_vs_d_by_layer": [
+                {"layer": 0, "auroc": 0.541},
+                {"layer": 3, "auroc": 0.561},
+                {"layer": 7, "auroc": 0.648},
+                {"layer": 15, "auroc": 0.647},
+                {"layer": 25, "auroc": 0.668},
+                {"layer": 32, "auroc": 0.657}
+            ]
+        },
+        "Llama 3.1 8B": {
+            "c_vs_d_by_layer": [
+                {"layer": 0, "c1_to_c2": 0.768, "c2_to_c1": 0.894, "mean": 0.831},
+                {"layer": 3, "c1_to_c2": 0.792, "c2_to_c1": 0.814, "mean": 0.803},
+                {"layer": 7, "c1_to_c2": 0.837, "c2_to_c1": 0.832, "mean": 0.835},
+                {"layer": 15, "c1_to_c2": 0.886, "c2_to_c1": 0.952, "mean": 0.919},
+                {"layer": 25, "c1_to_c2": 0.812, "c2_to_c1": 0.904, "mean": 0.858},
+                {"layer": 32, "c1_to_c2": 0.788, "c2_to_c1": 0.803, "mean": 0.795}
+            ],
+            "k_vs_d_by_layer": [
+                {"layer": 0, "auroc": 0.456},
+                {"layer": 3, "auroc": 0.494},
+                {"layer": 7, "auroc": 0.560},
+                {"layer": 15, "auroc": 0.631},
+                {"layer": 25, "auroc": 0.533},
+                {"layer": 32, "auroc": 0.586}
+            ]
+        },
+        "Gemma 2 9B": {
+            "c_vs_d_by_layer": [
+                {"layer": 0, "c1_to_c2": 0.694, "c2_to_c1": 0.806, "mean": 0.750},
+                {"layer": 3, "c1_to_c2": 0.665, "c2_to_c1": 0.918, "mean": 0.791},
+                {"layer": 7, "c1_to_c2": 0.732, "c2_to_c1": 0.884, "mean": 0.808},
+                {"layer": 15, "c1_to_c2": 0.656, "c2_to_c1": 0.812, "mean": 0.734},
+                {"layer": 25, "c1_to_c2": 0.667, "c2_to_c1": 0.815, "mean": 0.741},
+                {"layer": 42, "c1_to_c2": 0.705, "c2_to_c1": 0.879, "mean": 0.792}
+            ],
+            "k_vs_d_by_layer": [
+                {"layer": 0, "auroc": 0.451},
+                {"layer": 3, "auroc": 0.557},
+                {"layer": 7, "auroc": 0.460},
+                {"layer": 15, "auroc": 0.413},
+                {"layer": 25, "auroc": 0.436},
+                {"layer": 42, "auroc": 0.523}
+            ]
+        }
+    },
+
+    "matched_set": {
+        "_note": "C questions with year strings removed, then matched to D by length+digit_count. Mistral only.",
+        "n_matched_pairs": 14,
+        "n_total": 28,
+        "bow_auroc": {"mean": 0.867, "std": 0.114},
+        "probe_by_layer": [
+            {"layer": 0, "mean_auroc": 0.800, "std_auroc": 0.301},
+            {"layer": 3, "mean_auroc": 0.889, "std_auroc": 0.141},
+            {"layer": 7, "mean_auroc": 0.911, "std_auroc": 0.109},
+            {"layer": 15, "mean_auroc": 0.844, "std_auroc": 0.194},
+            {"layer": 25, "mean_auroc": 0.800, "std_auroc": 0.247},
+            {"layer": 32, "mean_auroc": 0.889, "std_auroc": 0.222}
+        ]
+    }
+}

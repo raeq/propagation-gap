@@ -1,0 +1,200 @@
+{
+  "Mistral-7B": {
+    "best_layer": 16,
+    "last_layer": 32,
+    "n_K": 212,
+    "n_D": 77,
+    "aurocs": {
+      "hidden_best": {
+        "point": 0.742,
+        "ci_lo": 0.679,
+        "ci_hi": 0.803
+      },
+      "hidden_last": {
+        "point": 0.6726,
+        "ci_lo": 0.6009,
+        "ci_hi": 0.7438
+      },
+      "logit_confidence": {
+        "point": 0.6272,
+        "ci_lo": 0.5511,
+        "ci_hi": 0.7019
+      },
+      "behavioral_a": {
+        "point": 0.5643,
+        "ci_lo": 0.4864,
+        "ci_hi": 0.6464
+      },
+      "behavioral_b": {
+        "point": 0.6722,
+        "ci_lo": 0.606,
+        "ci_hi": 0.7355
+      }
+    },
+    "paired_gaps": {
+      "best_minus_last": {
+        "gap": 0.0695,
+        "ci_lo": 0.0133,
+        "ci_hi": 0.1253,
+        "p_gap_le_0": 0.008
+      },
+      "best_minus_behavioral_a": {
+        "gap": 0.1777,
+        "ci_lo": 0.084,
+        "ci_hi": 0.2663,
+        "p_gap_le_0": 0.0
+      },
+      "best_minus_behavioral_b": {
+        "gap": 0.0698,
+        "ci_lo": -0.0118,
+        "ci_hi": 0.1503,
+        "p_gap_le_0": 0.0476
+      },
+      "last_minus_logit": {
+        "gap": 0.0453,
+        "ci_lo": -0.0484,
+        "ci_hi": 0.1435,
+        "p_gap_le_0": 0.1728
+      },
+      "logit_minus_behavioral_a": {
+        "gap": 0.0629,
+        "ci_lo": -0.0462,
+        "ci_hi": 0.169,
+        "p_gap_le_0": 0.1266
+      }
+    },
+    "n_bootstrap": 5000
+  },
+  "Llama-3.1-8B": {
+    "best_layer": 15,
+    "last_layer": 32,
+    "n_K": 195,
+    "n_D": 73,
+    "aurocs": {
+      "hidden_best": {
+        "point": 0.7728,
+        "ci_lo": 0.7022,
+        "ci_hi": 0.8362
+      },
+      "hidden_last": {
+        "point": 0.6982,
+        "ci_lo": 0.6204,
+        "ci_hi": 0.7684
+      },
+      "logit_confidence": {
+        "point": 0.6136,
+        "ci_lo": 0.5356,
+        "ci_hi": 0.6887
+      },
+      "behavioral_a": {
+        "point": 0.5792,
+        "ci_lo": 0.4953,
+        "ci_hi": 0.6624
+      },
+      "behavioral_b": {
+        "point": 0.5971,
+        "ci_lo": 0.5127,
+        "ci_hi": 0.6815
+      }
+    },
+    "paired_gaps": {
+      "best_minus_last": {
+        "gap": 0.0746,
+        "ci_lo": 0.0185,
+        "ci_hi": 0.1319,
+        "p_gap_le_0": 0.0056
+      },
+      "best_minus_behavioral_a": {
+        "gap": 0.1936,
+        "ci_lo": 0.0876,
+        "ci_hi": 0.2975,
+        "p_gap_le_0": 0.0
+      },
+      "best_minus_behavioral_b": {
+        "gap": 0.1757,
+        "ci_lo": 0.0751,
+        "ci_hi": 0.273,
+        "p_gap_le_0": 0.0004
+      },
+      "last_minus_logit": {
+        "gap": 0.0846,
+        "ci_lo": -0.0051,
+        "ci_hi": 0.1713,
+        "p_gap_le_0": 0.0326
+      },
+      "logit_minus_behavioral_a": {
+        "gap": 0.0344,
+        "ci_lo": -0.0762,
+        "ci_hi": 0.1517,
+        "p_gap_le_0": 0.277
+      }
+    },
+    "n_bootstrap": 5000
+  },
+  "Qwen2.5-7B": {
+    "best_layer": 17,
+    "last_layer": 28,
+    "n_K": 195,
+    "n_D": 61,
+    "aurocs": {
+      "hidden_best": {
+        "point": 0.7363,
+        "ci_lo": 0.6582,
+        "ci_hi": 0.8094
+      },
+      "hidden_last": {
+        "point": 0.7075,
+        "ci_lo": 0.6334,
+        "ci_hi": 0.7805
+      },
+      "logit_confidence": {
+        "point": 0.5586,
+        "ci_lo": 0.4759,
+        "ci_hi": 0.6414
+      },
+      "behavioral_a": {
+        "point": 0.493,
+        "ci_lo": 0.4085,
+        "ci_hi": 0.5761
+      },
+      "behavioral_b": {
+        "point": 0.7219,
+        "ci_lo": 0.6516,
+        "ci_hi": 0.7883
+      }
+    },
+    "paired_gaps": {
+      "best_minus_last": {
+        "gap": 0.0288,
+        "ci_lo": -0.05,
+        "ci_hi": 0.1107,
+        "p_gap_le_0": 0.2486
+      },
+      "best_minus_behavioral_a": {
+        "gap": 0.2433,
+        "ci_lo": 0.1336,
+        "ci_hi": 0.3497,
+        "p_gap_le_0": 0.0002
+      },
+      "best_minus_behavioral_b": {
+        "gap": 0.0143,
+        "ci_lo": -0.0787,
+        "ci_hi": 0.1066,
+        "p_gap_le_0": 0.397
+      },
+      "last_minus_logit": {
+        "gap": 0.149,
+        "ci_lo": 0.0396,
+        "ci_hi": 0.2582,
+        "p_gap_le_0": 0.0044
+      },
+      "logit_minus_behavioral_a": {
+        "gap": 0.0656,
+        "ci_lo": -0.0481,
+        "ci_hi": 0.1814,
+        "p_gap_le_0": 0.135
+      }
+    },
+    "n_bootstrap": 5000
+  }
+}

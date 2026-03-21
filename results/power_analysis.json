@@ -1,0 +1,76 @@
+{
+  "power_analysis": [
+    {
+      "model": "Mistral 7B",
+      "band": "default",
+      "n_D": 77,
+      "n_K": 216,
+      "obs_gap": 0.178,
+      "se": 0.0341,
+      "mdg": 0.085,
+      "power": 1.0,
+      "adequate": true
+    },
+    {
+      "model": "Mistral 7B",
+      "band": "narrow",
+      "n_D": 48,
+      "n_K": 216,
+      "obs_gap": 0.07,
+      "se": 0.0394,
+      "mdg": 0.098,
+      "power": 0.552,
+      "adequate": false
+    },
+    {
+      "model": "Llama 3.1 8B",
+      "band": "default",
+      "n_D": 95,
+      "n_K": 198,
+      "obs_gap": 0.194,
+      "se": 0.0319,
+      "mdg": 0.079,
+      "power": 1.0,
+      "adequate": true
+    },
+    {
+      "model": "Llama 3.1 8B",
+      "band": "narrow",
+      "n_D": 58,
+      "n_K": 198,
+      "obs_gap": 0.188,
+      "se": 0.0356,
+      "mdg": 0.088,
+      "power": 1.0,
+      "adequate": true
+    },
+    {
+      "model": "Qwen2.5 7B",
+      "band": "default",
+      "n_D": 61,
+      "n_K": 195,
+      "obs_gap": 0.243,
+      "se": 0.0387,
+      "mdg": 0.096,
+      "power": 1.0,
+      "adequate": true
+    },
+    {
+      "model": "Qwen2.5 7B",
+      "band": "narrow",
+      "n_D": 28,
+      "n_K": 195,
+      "obs_gap": 0.285,
+      "se": 0.0512,
+      "mdg": 0.127,
+      "power": 1.0,
+      "adequate": true
+    }
+  ],
+  "assumptions": {
+    "paired_correlation": 0.5,
+    "alpha": 0.05,
+    "method": "Hanley-McNeil (1982) + paired-difference normal approximation",
+    "power_target": 0.8
+  }
+}
